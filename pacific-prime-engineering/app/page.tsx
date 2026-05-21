@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   const services = [
     "Water & Pumping Systems",
@@ -20,31 +22,36 @@ export default function Home() {
   return (
     <main className="min-h-screen text-white">
       {/* NAVBAR */}
-      <header className="fixed top-0 z-50 w-full border-b border-white/10 bg-[#071018]/60 backdrop-blur-xl">
+      <header className="fixed top-0 z-50 w-full border-b border-white/10 bg-[#071018]/70 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <div>
-            <h1 className="text-xl font-bold tracking-wide">
-              PACIFIC PRIME ENGINEERING
-            </h1>
-            <p className="text-xs text-orange-300">
-              Reliability Never Stops.
-            </p>
+          <div className="flex items-center gap-4">
+            <Image
+              src="/ppe-logo.png"
+              alt="Pacific Prime Engineering"
+              width={60}
+              height={60}
+              priority
+              className="object-contain"
+            />
+
+            <div>
+              <h1 className="text-lg font-bold tracking-wide">
+                PACIFIC PRIME ENGINEERING
+              </h1>
+              <p className="text-xs text-orange-300">
+                Reliability Never Stops.
+              </p>
+            </div>
           </div>
 
           <nav className="hidden gap-8 text-sm md:flex">
             <a href="#" className="transition hover:text-orange-300">
               Home
             </a>
-            <a
-              href="#services"
-              className="transition hover:text-orange-300"
-            >
+            <a href="#services" className="transition hover:text-orange-300">
               Services
             </a>
-            <a
-              href="#industries"
-              className="transition hover:text-orange-300"
-            >
+            <a href="#industries" className="transition hover:text-orange-300">
               Industries
             </a>
             <a href="#about" className="transition hover:text-orange-300">
@@ -61,11 +68,22 @@ export default function Home() {
       <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-6">
         <div className="hero-overlay absolute inset-0 z-10" />
 
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?q=80&w=1920&auto=format&fit=crop')] bg-cover bg-center opacity-30" />
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?q=80&w=1920&auto=format&fit=crop')] bg-cover bg-center opacity-25" />
 
         <div className="relative z-20 mx-auto max-w-5xl text-center">
+          <div className="mb-10 flex justify-center">
+            <Image
+              src="/ppe-logo.png"
+              alt="Pacific Prime Engineering"
+              width={180}
+              height={180}
+              priority
+              className="drop-shadow-2xl"
+            />
+          </div>
+
           <div className="mb-8 inline-flex rounded-full border border-orange-400/20 bg-white/5 px-6 py-3 text-sm tracking-[0.25em] text-orange-300 backdrop-blur-md">
-            PREMIUM ENGINEERING • GUANACASTE
+            PREMIUM ENGINEERING • PAPAGAYO • GUANACASTE
           </div>
 
           <h1 className="mb-6 text-5xl font-bold leading-tight md:text-7xl">
@@ -77,9 +95,10 @@ export default function Home() {
           </h2>
 
           <p className="mx-auto mb-12 max-w-3xl text-lg text-slate-300 md:text-xl">
-            Operational continuity, utilities engineering, pumping systems
-            and premium technical response for luxury hospitality and
-            critical infrastructure across Guanacaste.
+            Operational continuity, utilities engineering,
+            pumping systems and premium technical response
+            for luxury hospitality and critical infrastructure
+            across Guanacaste.
           </p>
 
           <div className="flex flex-col items-center justify-center gap-5 sm:flex-row">
@@ -111,11 +130,13 @@ export default function Home() {
                 key={service}
                 className="glass-card rounded-[2rem] p-8 transition duration-300 hover:-translate-y-2"
               >
-                <h3 className="mb-4 text-2xl font-semibold">{service}</h3>
+                <h3 className="mb-4 text-2xl font-semibold">
+                  {service}
+                </h3>
 
                 <p className="text-slate-400">
-                  Premium engineering and reliability-focused solutions
-                  designed for critical operations.
+                  Premium engineering and reliability-focused
+                  solutions designed for critical operations.
                 </p>
               </div>
             ))}
@@ -124,7 +145,10 @@ export default function Home() {
       </section>
 
       {/* INDUSTRIES */}
-      <section id="industries" className="bg-white/5 px-6 py-28">
+      <section
+        id="industries"
+        className="bg-white/5 px-6 py-28"
+      >
         <div className="mx-auto max-w-7xl">
           <h2 className="section-title mb-14 text-center">
             Industries We Serve
@@ -136,7 +160,9 @@ export default function Home() {
                 key={industry}
                 className="glass-card rounded-[2rem] p-8 text-center transition hover:-translate-y-2"
               >
-                <h3 className="text-2xl font-semibold">{industry}</h3>
+                <h3 className="text-2xl font-semibold">
+                  {industry}
+                </h3>
               </div>
             ))}
           </div>
@@ -151,28 +177,32 @@ export default function Home() {
           </div>
 
           <h2 className="section-title mb-8">
-            Engineering Reliability for Luxury Hospitality &
-            Critical Infrastructure
+            Engineering Reliability for Luxury
+            Hospitality & Critical Infrastructure
           </h2>
 
           <p className="mx-auto max-w-3xl text-lg leading-8 text-slate-400">
-            Pacific Prime Engineering delivers premium engineering,
-            utilities support, pumping systems and technical response
-            designed to protect operational continuity for luxury
-            hospitality and critical infrastructure across Guanacaste.
+            Pacific Prime Engineering delivers premium
+            engineering, utilities support, pumping systems
+            and technical response designed to protect
+            operational continuity for luxury hospitality
+            and critical infrastructure across Guanacaste.
           </p>
         </div>
       </section>
 
       {/* CONTACT */}
-      <section id="contact" className="bg-white/5 px-6 py-28 text-center">
+      <section
+        id="contact"
+        className="bg-white/5 px-6 py-28 text-center"
+      >
         <h2 className="section-title mb-4">
           Ready to Protect Your Operations?
         </h2>
 
         <p className="mx-auto mb-10 max-w-2xl text-slate-400">
-          Schedule a technical assessment or contact our emergency
-          response team.
+          Schedule a technical assessment or contact
+          our emergency response team.
         </p>
 
         <div className="flex flex-col items-center gap-3 text-slate-300">
@@ -186,9 +216,14 @@ export default function Home() {
       <footer className="border-t border-white/10 bg-[#050b12] px-6 py-14">
         <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-3">
           <div>
-            <h3 className="mb-3 text-2xl font-bold">
-              Pacific Prime Engineering
-            </h3>
+            <div className="mb-5">
+              <Image
+                src="/ppe-logo.png"
+                alt="Pacific Prime Engineering"
+                width={120}
+                height={120}
+              />
+            </div>
 
             <p className="text-orange-300">
               Reliability Never Stops.
@@ -226,7 +261,7 @@ export default function Home() {
       <a
         href="https://wa.me/50686053534?text=Hello%20Pacific%20Prime%20Engineering,%20I%20need%20technical%20support."
         target="_blank"
-        className="fixed bottom-6 right-6 z-50 flex items-center gap-3 rounded-full bg-green-500 px-6 py-4 font-semibold text-white shadow-2xl transition hover:scale-105"
+        className="fixed bottom-6 right-6 z-50 rounded-full bg-green-500 px-6 py-4 font-semibold text-white shadow-2xl transition hover:scale-105"
       >
         WhatsApp 24/7
       </a>
