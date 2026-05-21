@@ -1,67 +1,112 @@
-export default function Home() {
-  return (
-    <main className="min-h-screen bg-[#071018] text-white">
-      {/* HERO SECTION */}
-      <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#071018]/70 to-[#071018]" />
+            export default function Home() {
+  const services = [
+    "Water & Pumping Systems",
+    "Utilities Infrastructure",
+    "Hospitality Engineering",
+    "Industrial Maintenance",
+    "Emergency Response",
+    "Reliability Assessments",
+  ];
 
-        <div className="relative z-10 mx-auto max-w-6xl px-6 text-center">
-          <div className="mb-6 flex justify-center">
-            <div className="rounded-full border border-orange-400/30 bg-white/5 px-5 py-2 text-sm tracking-[0.25em] text-orange-300 backdrop-blur-sm">
+  const industries = [
+    "Luxury Resorts",
+    "Luxury Villas",
+    "Marinas",
+    "Hospitality",
+    "Industrial Facilities",
+    "Food & Beverage",
+  ];
+
+  return (
+    <main className="min-h-screen text-white">
+      {/* NAVBAR */}
+      <header className="fixed top-0 z-50 w-full border-b border-white/10 bg-[#071018]/60 backdrop-blur-xl">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+          <div>
+            <h1 className="text-xl font-bold tracking-wide">
               PACIFIC PRIME ENGINEERING
-            </div>
+            </h1>
+            <p className="text-xs text-orange-300">
+              Reliability Never Stops.
+            </p>
+          </div>
+
+          <nav className="hidden gap-8 text-sm md:flex">
+            <a href="#" className="hover:text-orange-300">
+              Home
+            </a>
+            <a href="#services" className="hover:text-orange-300">
+              Services
+            </a>
+            <a href="#industries" className="hover:text-orange-300">
+              Industries
+            </a>
+            <a href="#contact" className="hover:text-orange-300">
+              Contact
+            </a>
+          </nav>
+        </div>
+      </header>
+
+      {/* HERO */}
+      <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-6">
+        <div className="hero-overlay absolute inset-0 z-10" />
+
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?q=80&w=1920&auto=format&fit=crop')] bg-cover bg-center opacity-30" />
+
+        <div className="relative z-20 mx-auto max-w-5xl text-center">
+          <div className="mb-8 inline-flex rounded-full border border-orange-400/20 bg-white/5 px-6 py-3 text-sm tracking-[0.25em] text-orange-300 backdrop-blur-md">
+            PREMIUM ENGINEERING • GUANACASTE
           </div>
 
           <h1 className="mb-6 text-5xl font-bold leading-tight md:text-7xl">
             Reliability Never Stops.
           </h1>
 
-          <h2 className="mb-8 text-xl font-light text-orange-300 md:text-3xl">
+          <h2 className="mb-8 text-2xl font-light text-orange-300 md:text-4xl">
             Critical Infrastructure. Premium Response.
           </h2>
 
-          <p className="mx-auto mb-10 max-w-3xl text-lg text-slate-300 md:text-xl">
-            Operational continuity, utilities engineering, pumping systems and
-            premium technical response for luxury hospitality and critical
-            infrastructure across Guanacaste.
+          <p className="mx-auto mb-12 max-w-3xl text-lg text-slate-300 md:text-xl">
+            Operational continuity, utilities engineering, pumping systems
+            and premium technical response for luxury hospitality and
+            critical infrastructure across Guanacaste.
           </p>
 
-          <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <button className="rounded-full bg-orange-500 px-8 py-4 text-lg font-semibold transition hover:scale-105 hover:bg-orange-400">
+          <div className="flex flex-col items-center justify-center gap-5 sm:flex-row">
+            <button className="orange-glow rounded-full bg-orange-500 px-10 py-5 text-lg font-semibold transition hover:scale-105 hover:bg-orange-400">
               Request Technical Assessment
             </button>
 
-            <button className="rounded-full border border-white/20 bg-white/10 px-8 py-4 text-lg font-semibold backdrop-blur-md transition hover:bg-white/20">
+            <a
+              href="https://wa.me/50686053534"
+              target="_blank"
+              className="rounded-full border border-white/20 bg-white/10 px-10 py-5 text-lg font-semibold backdrop-blur-md transition hover:bg-white/20"
+            >
               Emergency Response 24/7
-            </button>
+            </a>
           </div>
         </div>
       </section>
 
       {/* SERVICES */}
-      <section className="bg-[#0B1724] px-6 py-24">
-        <div className="mx-auto max-w-6xl">
-          <h3 className="mb-14 text-center text-4xl font-bold">
+      <section id="services" className="px-6 py-28">
+        <div className="mx-auto max-w-7xl">
+          <h2 className="section-title mb-14 text-center">
             Premium Engineering Services
-          </h3>
+          </h2>
 
           <div className="grid gap-8 md:grid-cols-3">
-            {[
-              "Water & Pumping Systems",
-              "Utilities Infrastructure",
-              "Hospitality Engineering",
-              "Industrial Maintenance",
-              "Emergency Response",
-              "Reliability Assessments",
-            ].map((service) => (
+            {services.map((service) => (
               <div
                 key={service}
-                className="rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm transition hover:-translate-y-2 hover:border-orange-400/40"
+                className="glass-card rounded-[2rem] p-8 transition duration-300 hover:-translate-y-2"
               >
-                <h4 className="mb-4 text-2xl font-semibold">{service}</h4>
+                <h3 className="mb-4 text-2xl font-semibold">{service}</h3>
+
                 <p className="text-slate-400">
-                  Premium engineering solutions designed for luxury hospitality
-                  and critical infrastructure reliability.
+                  Premium engineering and reliability-focused solutions
+                  designed for critical operations.
                 </p>
               </div>
             ))}
@@ -69,27 +114,43 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CONTACT CTA */}
-      <section className="px-6 py-24 text-center">
-        <h3 className="mb-4 text-4xl font-bold">
-          Ready to Protect Your Operations?
-        </h3>
+      {/* INDUSTRIES */}
+      <section id="industries" className="bg-white/5 px-6 py-28">
+        <div className="mx-auto max-w-7xl">
+          <h2 className="section-title mb-14 text-center">
+            Industries We Serve
+          </h2>
 
-        <p className="mx-auto mb-8 max-w-2xl text-slate-400">
-          Schedule a technical assessment or contact our emergency response
-          team today.
+          <div className="grid gap-6 md:grid-cols-3">
+            {industries.map((industry) => (
+              <div
+                key={industry}
+                className="glass-card rounded-[2rem] p-8 text-center"
+              >
+                <h3 className="text-2xl font-semibold">{industry}</h3>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CONTACT */}
+      <section id="contact" className="px-6 py-28 text-center">
+        <h2 className="section-title mb-4">
+          Ready to Protect Your Operations?
+        </h2>
+
+        <p className="mx-auto mb-10 max-w-2xl text-slate-400">
+          Schedule a technical assessment or contact our emergency
+          response team.
         </p>
 
-        <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <button className="rounded-full bg-orange-500 px-8 py-4 font-semibold transition hover:bg-orange-400">
-            Contact Us
-          </button>
-
-          <button className="rounded-full border border-white/20 px-8 py-4 font-semibold transition hover:bg-white/10">
-            WhatsApp +506 8605-3534
-          </button>
+        <div className="flex flex-col items-center gap-3 text-slate-300">
+          <p>📍 Papagayo, Guanacaste, Costa Rica</p>
+          <p>📞 +506 8605-3534</p>
+          <p>✉ info@pacificprimeengineering.com</p>
         </div>
       </section>
     </main>
   );
-}
+}  
