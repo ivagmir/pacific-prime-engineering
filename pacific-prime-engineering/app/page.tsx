@@ -1,4 +1,4 @@
-            export default function Home() {
+export default function Home() {
   const services = [
     "Water & Pumping Systems",
     "Utilities Infrastructure",
@@ -32,16 +32,25 @@
           </div>
 
           <nav className="hidden gap-8 text-sm md:flex">
-            <a href="#" className="hover:text-orange-300">
+            <a href="#" className="transition hover:text-orange-300">
               Home
             </a>
-            <a href="#services" className="hover:text-orange-300">
+            <a
+              href="#services"
+              className="transition hover:text-orange-300"
+            >
               Services
             </a>
-            <a href="#industries" className="hover:text-orange-300">
+            <a
+              href="#industries"
+              className="transition hover:text-orange-300"
+            >
               Industries
             </a>
-            <a href="#contact" className="hover:text-orange-300">
+            <a href="#about" className="transition hover:text-orange-300">
+              About
+            </a>
+            <a href="#contact" className="transition hover:text-orange-300">
               Contact
             </a>
           </nav>
@@ -79,7 +88,7 @@
             </button>
 
             <a
-              href="https://wa.me/50686053534"
+              href="https://wa.me/50686053534?text=Hello%20Pacific%20Prime%20Engineering,%20I%20would%20like%20a%20technical%20assessment."
               target="_blank"
               className="rounded-full border border-white/20 bg-white/10 px-10 py-5 text-lg font-semibold backdrop-blur-md transition hover:bg-white/20"
             >
@@ -125,7 +134,7 @@
             {industries.map((industry) => (
               <div
                 key={industry}
-                className="glass-card rounded-[2rem] p-8 text-center"
+                className="glass-card rounded-[2rem] p-8 text-center transition hover:-translate-y-2"
               >
                 <h3 className="text-2xl font-semibold">{industry}</h3>
               </div>
@@ -134,8 +143,29 @@
         </div>
       </section>
 
+      {/* ABOUT */}
+      <section id="about" className="px-6 py-28">
+        <div className="mx-auto max-w-5xl text-center">
+          <div className="mb-6 text-sm tracking-[0.3em] text-orange-300">
+            BUILT FOR OPERATIONAL CONTINUITY
+          </div>
+
+          <h2 className="section-title mb-8">
+            Engineering Reliability for Luxury Hospitality &
+            Critical Infrastructure
+          </h2>
+
+          <p className="mx-auto max-w-3xl text-lg leading-8 text-slate-400">
+            Pacific Prime Engineering delivers premium engineering,
+            utilities support, pumping systems and technical response
+            designed to protect operational continuity for luxury
+            hospitality and critical infrastructure across Guanacaste.
+          </p>
+        </div>
+      </section>
+
       {/* CONTACT */}
-      <section id="contact" className="px-6 py-28 text-center">
+      <section id="contact" className="bg-white/5 px-6 py-28 text-center">
         <h2 className="section-title mb-4">
           Ready to Protect Your Operations?
         </h2>
@@ -151,6 +181,55 @@
           <p>✉ info@pacificprimeengineering.com</p>
         </div>
       </section>
+
+      {/* FOOTER */}
+      <footer className="border-t border-white/10 bg-[#050b12] px-6 py-14">
+        <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-3">
+          <div>
+            <h3 className="mb-3 text-2xl font-bold">
+              Pacific Prime Engineering
+            </h3>
+
+            <p className="text-orange-300">
+              Reliability Never Stops.
+            </p>
+
+            <p className="mt-4 text-slate-400">
+              Critical Infrastructure. Premium Response.
+            </p>
+          </div>
+
+          <div>
+            <h4 className="mb-4 font-semibold">Services</h4>
+
+            <div className="space-y-2 text-slate-400">
+              <p>Water & Pumping Systems</p>
+              <p>Utilities Infrastructure</p>
+              <p>Hospitality Engineering</p>
+              <p>Emergency Response</p>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="mb-4 font-semibold">Contact</h4>
+
+            <div className="space-y-2 text-slate-400">
+              <p>Papagayo, Guanacaste</p>
+              <p>+506 8605-3534</p>
+              <p>info@pacificprimeengineering.com</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      {/* FLOATING WHATSAPP */}
+      <a
+        href="https://wa.me/50686053534?text=Hello%20Pacific%20Prime%20Engineering,%20I%20need%20technical%20support."
+        target="_blank"
+        className="fixed bottom-6 right-6 z-50 flex items-center gap-3 rounded-full bg-green-500 px-6 py-4 font-semibold text-white shadow-2xl transition hover:scale-105"
+      >
+        WhatsApp 24/7
+      </a>
     </main>
   );
-}  
+}
