@@ -1,65 +1,95 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <main className="min-h-screen bg-[#071018] text-white">
+      {/* HERO SECTION */}
+      <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-[#071018]/70 to-[#071018]" />
+
+        <div className="relative z-10 mx-auto max-w-6xl px-6 text-center">
+          <div className="mb-6 flex justify-center">
+            <div className="rounded-full border border-orange-400/30 bg-white/5 px-5 py-2 text-sm tracking-[0.25em] text-orange-300 backdrop-blur-sm">
+              PACIFIC PRIME ENGINEERING
+            </div>
+          </div>
+
+          <h1 className="mb-6 text-5xl font-bold leading-tight md:text-7xl">
+            Reliability Never Stops.
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+
+          <h2 className="mb-8 text-xl font-light text-orange-300 md:text-3xl">
+            Critical Infrastructure. Premium Response.
+          </h2>
+
+          <p className="mx-auto mb-10 max-w-3xl text-lg text-slate-300 md:text-xl">
+            Operational continuity, utilities engineering, pumping systems and
+            premium technical response for luxury hospitality and critical
+            infrastructure across Guanacaste.
           </p>
+
+          <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <button className="rounded-full bg-orange-500 px-8 py-4 text-lg font-semibold transition hover:scale-105 hover:bg-orange-400">
+              Request Technical Assessment
+            </button>
+
+            <button className="rounded-full border border-white/20 bg-white/10 px-8 py-4 text-lg font-semibold backdrop-blur-md transition hover:bg-white/20">
+              Emergency Response 24/7
+            </button>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* SERVICES */}
+      <section className="bg-[#0B1724] px-6 py-24">
+        <div className="mx-auto max-w-6xl">
+          <h3 className="mb-14 text-center text-4xl font-bold">
+            Premium Engineering Services
+          </h3>
+
+          <div className="grid gap-8 md:grid-cols-3">
+            {[
+              "Water & Pumping Systems",
+              "Utilities Infrastructure",
+              "Hospitality Engineering",
+              "Industrial Maintenance",
+              "Emergency Response",
+              "Reliability Assessments",
+            ].map((service) => (
+              <div
+                key={service}
+                className="rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm transition hover:-translate-y-2 hover:border-orange-400/40"
+              >
+                <h4 className="mb-4 text-2xl font-semibold">{service}</h4>
+                <p className="text-slate-400">
+                  Premium engineering solutions designed for luxury hospitality
+                  and critical infrastructure reliability.
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* CONTACT CTA */}
+      <section className="px-6 py-24 text-center">
+        <h3 className="mb-4 text-4xl font-bold">
+          Ready to Protect Your Operations?
+        </h3>
+
+        <p className="mx-auto mb-8 max-w-2xl text-slate-400">
+          Schedule a technical assessment or contact our emergency response
+          team today.
+        </p>
+
+        <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+          <button className="rounded-full bg-orange-500 px-8 py-4 font-semibold transition hover:bg-orange-400">
+            Contact Us
+          </button>
+
+          <button className="rounded-full border border-white/20 px-8 py-4 font-semibold transition hover:bg-white/10">
+            WhatsApp +506 8605-3534
+          </button>
+        </div>
+      </section>
+    </main>
   );
 }
