@@ -13,19 +13,57 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Pacific Prime Engineering",
-  description:
-    "Critical Infrastructure. Premium Response. Engineering services for luxury hospitality and critical infrastructure in Guanacaste, Costa Rica.",
+  metadataBase: new URL("https://pacificprimeengineering.com"),
 
-  icons: {
-    icon: "/ppe-logo.png",
+  title: {
+    default: "Pacific Prime Engineering",
+    template: "%s | Pacific Prime Engineering",
   },
+
+  description:
+    "Premium engineering services for luxury hospitality, utilities infrastructure, pumping systems and industrial maintenance in Guanacaste, Costa Rica.",
+
+  keywords: [
+    "engineering services guanacaste",
+    "industrial maintenance costa rica",
+    "hospitality engineering",
+    "utilities infrastructure",
+    "pumping systems costa rica",
+    "papagayo engineering",
+    "resort maintenance guanacaste",
+    "critical infrastructure costa rica",
+  ],
+
+  authors: [{ name: "Pacific Prime Engineering" }],
 
   openGraph: {
     title: "Pacific Prime Engineering",
     description:
       "Critical Infrastructure. Premium Response.",
+    url: "https://pacificprimeengineering.com",
+    siteName: "Pacific Prime Engineering",
+    images: [
+      {
+        url: "/ppe-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Pacific Prime Engineering",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Pacific Prime Engineering",
+    description:
+      "Critical Infrastructure. Premium Response.",
     images: ["/ppe-logo.png"],
+  },
+
+  icons: {
+    icon: "/ppe-logo.png",
   },
 };
 
