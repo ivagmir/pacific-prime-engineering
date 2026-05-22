@@ -44,23 +44,50 @@ export default function Home() {
             </div>
           </div>
 
-          <nav className="hidden gap-8 text-sm md:flex">
-            <a href="#" className="transition hover:text-orange-300">
-              Home
-            </a>
-            <a href="#services" className="transition hover:text-orange-300">
-              Services
-            </a>
-            <a href="#industries" className="transition hover:text-orange-300">
-              Industries
-            </a>
-            <a href="#about" className="transition hover:text-orange-300">
-              About
-            </a>
-            <a href="#contact" className="transition hover:text-orange-300">
-              Contact
-            </a>
-          </nav>
+<nav className="hidden gap-8 text-sm md:flex">
+  <a
+    href="/"
+    className="transition hover:text-orange-300"
+  >
+    Home
+  </a>
+
+  <a
+    href="#industries"
+    className="transition hover:text-orange-300"
+  >
+    Industries
+  </a>
+
+  <a
+    href="/services/hospitality-engineering"
+    className="transition hover:text-orange-300"
+  >
+    Hospitality
+  </a>
+
+  <a
+    href="/services/pumping-systems"
+    className="transition hover:text-orange-300"
+  >
+    Pumping Systems
+  </a>
+
+  <a
+    href="/services/emergency-response"
+    className="transition hover:text-orange-300"
+  >
+    Emergency
+  </a>
+
+  <a
+    href="#contact"
+    className="transition hover:text-orange-300"
+  >
+    Contact
+  </a>
+</nav>
+          
           <div className="hidden items-center gap-3 md:flex">
   <button className="text-orange-300 font-semibold">
     EN
@@ -306,6 +333,57 @@ export default function Home() {
   </div>
 </section>
 
+  {/* SERVICES QUICK ACCESS */}
+<section className="bg-white/5 px-6 py-24">
+  <div className="mx-auto max-w-7xl">
+    <div className="mb-14 text-center">
+      <div className="mb-4 text-sm tracking-[0.3em] text-orange-300">
+        CORE SERVICES
+      </div>
+
+      <h2 className="section-title">
+        Engineering Services
+      </h2>
+    </div>
+
+    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+      {[
+        {
+          title: "Hospitality Engineering",
+          link: "/services/hospitality-engineering",
+        },
+        {
+          title: "Pumping Systems",
+          link: "/services/pumping-systems",
+        },
+        {
+          title: "Emergency Response",
+          link: "/services/emergency-response",
+        },
+        {
+          title: "Industrial Maintenance",
+          link: "/services/industrial-maintenance",
+        },
+      ].map((service) => (
+        <a
+          key={service.title}
+          href={service.link}
+          className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-2 hover:border-orange-400/30"
+        >
+          <div className="mb-4 text-sm tracking-[0.2em] text-orange-300">
+            SERVICE
+          </div>
+
+          <h3 className="text-2xl font-semibold">
+            {service.title}
+          </h3>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+      
 {/* OPERATIONAL SCENARIOS */}
 <section className="px-6 py-28">
   <div className="mx-auto max-w-7xl">
@@ -538,6 +616,13 @@ export default function Home() {
       >
         WhatsApp 24/7
       </a>
+      <a
+  href="https://wa.me/50686053534?text=Hello%20Pacific%20Prime%20Engineering"
+  target="_blank"
+  className="fixed bottom-6 right-6 z-50 rounded-full bg-orange-500 px-6 py-4 font-semibold text-white shadow-2xl transition hover:scale-105"
+>
+  WhatsApp 24/7
+</a>
     </main>
   );
 }
