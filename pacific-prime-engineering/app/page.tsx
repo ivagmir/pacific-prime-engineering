@@ -168,30 +168,65 @@ export default function Home() {
         </div>
       </section>
 
-      {/* INDUSTRIES */}
-      <section
-        id="industries"
-        className="bg-white/5 px-6 py-28"
-      >
-        <div className="mx-auto max-w-7xl">
-          <h2 className="section-title mb-14 text-center">
-            Industries We Serve
-          </h2>
+{/* INDUSTRIES */}
+<section
+  id="industries"
+  className="bg-white/5 px-6 py-28"
+>
+  <div className="mx-auto max-w-7xl">
+    <div className="mb-14 text-center">
+      <div className="mb-4 text-sm tracking-[0.3em] text-orange-300">
+        INDUSTRIES WE SERVE
+      </div>
 
-          <div className="grid gap-6 md:grid-cols-3">
-            {industries.map((industry) => (
-              <div
-                key={industry}
-                className="glass-card rounded-[2rem] p-8 text-center transition hover:-translate-y-2"
-              >
-                <h3 className="text-2xl font-semibold">
-                  {industry}
-                </h3>
-              </div>
-            ))}
-          </div>
+      <h2 className="section-title">
+        Engineered for Critical Operations
+      </h2>
+    </div>
+
+    <div className="grid gap-8 md:grid-cols-3">
+      {[
+        {
+          title: "Luxury Resorts",
+          desc: "Mission-critical hospitality engineering and operational continuity.",
+        },
+        {
+          title: "Luxury Villas & Estates",
+          desc: "Premium technical support for high-end residential operations.",
+        },
+        {
+          title: "Marinas",
+          desc: "Utilities, pumping systems and reliability support.",
+        },
+        {
+          title: "Food & Beverage",
+          desc: "Industrial technical operations and process support.",
+        },
+        {
+          title: "Utilities Infrastructure",
+          desc: "Engineering support for essential operational systems.",
+        },
+        {
+          title: "Emergency Technical Response",
+          desc: "24/7 engineering support when operations cannot stop.",
+        },
+      ].map((industry) => (
+        <div
+          key={industry.title}
+          className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-2"
+        >
+          <h3 className="mb-4 text-2xl font-semibold">
+            {industry.title}
+          </h3>
+
+          <p className="text-slate-400">
+            {industry.desc}
+          </p>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* ABOUT */}
       <section id="about" className="px-6 py-28">
