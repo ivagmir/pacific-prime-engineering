@@ -305,6 +305,65 @@ export default function Home() {
     </div>
   </div>
 </section>
+
+{/* OPERATIONAL SCENARIOS */}
+<section className="px-6 py-28">
+  <div className="mx-auto max-w-7xl">
+    <div className="mb-16 text-center">
+      <div className="mb-4 text-sm tracking-[0.3em] text-orange-300">
+        OPERATIONAL SCENARIOS
+      </div>
+
+      <h2 className="section-title mb-6">
+        Built for Mission-Critical Environments
+      </h2>
+
+      <p className="mx-auto max-w-3xl text-lg text-slate-400">
+        Engineering support designed for operational
+        continuity where downtime directly impacts
+        guest experience, infrastructure reliability
+        and business performance.
+      </p>
+    </div>
+
+    <div className="grid gap-8 lg:grid-cols-3">
+      {[
+        {
+          title: "Luxury Resort Utilities Continuity",
+          desc:
+            "Maintaining uninterrupted operations through premium technical response and utilities support.",
+        },
+        {
+          title: "Critical Pumping Reliability",
+          desc:
+            "Protecting water continuity and pressure stability for hospitality environments with high operational demand.",
+        },
+        {
+          title: "Emergency Infrastructure Support",
+          desc:
+            "Rapid technical intervention when operational systems require immediate response.",
+        },
+      ].map((scenario) => (
+        <div
+          key={scenario.title}
+          className="glass-card rounded-[2rem] p-10 transition hover:-translate-y-2"
+        >
+          <div className="mb-4 text-sm tracking-[0.2em] text-orange-300">
+            OPERATIONAL CASE
+          </div>
+
+          <h3 className="mb-5 text-2xl font-semibold">
+            {scenario.title}
+          </h3>
+
+          <p className="leading-8 text-slate-400">
+            {scenario.desc}
+          </p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
       
 {/* CONTACT */}
 <section
