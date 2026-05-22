@@ -65,7 +65,70 @@ export default function Home() {
       </header>
 
       {/* HERO */}
-      <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-6">
+<section className="relative flex min-h-screen items-center justify-center overflow-hidden px-6">
+  {/* VIDEO BACKGROUND */}
+  <video
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="absolute inset-0 h-full w-full object-cover"
+  >
+    <source src="/video/hero-video.mp4" type="video/mp4" />
+  </video>
+
+  {/* CINEMATIC OVERLAY */}
+  <div className="absolute inset-0 bg-black/45" />
+
+  <div className="absolute inset-0 bg-gradient-to-b from-[#071018]/40 via-[#071018]/70 to-[#071018]" />
+
+  {/* CONTENT */}
+  <div className="relative z-20 mx-auto max-w-5xl text-center">
+    <div className="mb-10 flex justify-center">
+      <Image
+        src="/ppe-logo.png"
+        alt="Pacific Prime Engineering"
+        width={180}
+        height={180}
+        priority
+        className="drop-shadow-2xl"
+      />
+    </div>
+
+    <div className="mb-8 inline-flex rounded-full border border-orange-400/20 bg-white/10 px-6 py-3 text-sm tracking-[0.25em] text-orange-300 backdrop-blur-md">
+      PREMIUM ENGINEERING • PAPAGAYO • GUANACASTE
+    </div>
+
+    <h1 className="mb-6 text-5xl font-bold leading-tight md:text-7xl">
+      Reliability Never Stops.
+    </h1>
+
+    <h2 className="mb-8 text-2xl font-light text-orange-300 md:text-4xl">
+      Critical Infrastructure. Premium Response.
+    </h2>
+
+    <p className="mx-auto mb-12 max-w-3xl text-lg text-slate-200 md:text-xl">
+      Operational continuity, utilities engineering,
+      pumping systems and premium technical response
+      for luxury hospitality and critical infrastructure
+      across Guanacaste.
+    </p>
+
+    <div className="flex flex-col items-center justify-center gap-5 sm:flex-row">
+      <button className="orange-glow rounded-full bg-orange-500 px-10 py-5 text-lg font-semibold transition hover:scale-105 hover:bg-orange-400">
+        Request Technical Assessment
+      </button>
+
+      <a
+        href="https://wa.me/50686053534?text=Hello%20Pacific%20Prime%20Engineering,%20I%20would%20like%20a%20technical%20assessment."
+        target="_blank"
+        className="rounded-full border border-white/20 bg-white/10 px-10 py-5 text-lg font-semibold backdrop-blur-md transition hover:bg-white/20"
+      >
+        Emergency Response 24/7
+      </a>
+    </div>
+  </div>
+</section>
         <div className="hero-overlay absolute inset-0 z-10" />
 
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?q=80&w=1920&auto=format&fit=crop')] bg-cover bg-center opacity-25" />
