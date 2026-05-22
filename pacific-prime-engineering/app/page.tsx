@@ -253,7 +253,12 @@ export default function Home() {
 
       <input
         type="hidden"
-        name="_template"
+        name="_template" 
+        <input
+  type="hidden"
+  name="_next"
+  value="https://pacificprimeengineering.com/thank-you"
+/>
         value="table"
       />
 
