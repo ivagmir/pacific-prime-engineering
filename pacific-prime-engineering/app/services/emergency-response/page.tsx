@@ -14,8 +14,8 @@ export default function EmergencyResponsePage() {
         </div>
 
         <h1 className="mb-8 text-5xl font-bold">
-          Emergency Engineering Response in Guanacaste
-        </h1>
+  24/7 Emergency Engineering Response
+</h1>
 
         <p className="mb-12 text-xl leading-8 text-slate-300">
           Pacific Prime Engineering provides premium
@@ -45,7 +45,7 @@ export default function EmergencyResponsePage() {
             href="/#contact"
             className="orange-glow inline-flex rounded-full bg-orange-500 px-8 py-5 font-semibold transition hover:bg-orange-400"
           >
-            Request Immediate Support
+            Request Immediate Technical Support
           </a>
         </div>
       </div>
