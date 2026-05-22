@@ -171,6 +171,7 @@ export default function Home() {
 </section>
      
       {/* SERVICES */}
+      <FadeIn>
       <section id="services" className="px-6 py-28">
         <div className="mx-auto max-w-7xl">
           <h2 className="section-title mb-14 text-center">
@@ -195,10 +196,10 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section></FadeIn>
 
 {/* INDUSTRIES */}
-<section
+<FadeIn><section
   id="industries"
   className="bg-white/5 px-6 py-28"
 >
@@ -255,10 +256,10 @@ export default function Home() {
       ))}
     </div>
   </div>
-</section>
+</section></FadeIn>
 
       {/* ABOUT */}
-      <section id="about" className="px-6 py-28">
+      <FadeIn><section id="about" className="px-6 py-28">
         <div className="mx-auto max-w-5xl text-center">
           <div className="mb-6 text-sm tracking-[0.3em] text-orange-300">
             BUILT FOR OPERATIONAL CONTINUITY
@@ -277,10 +278,10 @@ export default function Home() {
             and critical infrastructure across Guanacaste.
           </p>
         </div>
-      </section>
+      </section></FadeIn>
 
  {/* TRUST BUILDER */}
-<section className="bg-[#050b12] px-6 py-28">
+<FadeIn><section className="bg-[#050b12] px-6 py-28">
   <div className="mx-auto max-w-7xl">
     <div className="mb-16 text-center">
       <div className="mb-4 text-sm tracking-[0.3em] text-orange-300">
@@ -333,10 +334,10 @@ export default function Home() {
       ))}
     </div>
   </div>
-</section>
+</section></FadeIn>
 
   {/* SERVICES QUICK ACCESS */}
-<section className="bg-white/5 px-6 py-24">
+<FadeIn><section className="bg-white/5 px-6 py-24">
   <div className="mx-auto max-w-7xl">
     <div className="mb-14 text-center">
       <div className="mb-4 text-sm tracking-[0.3em] text-orange-300">
@@ -383,11 +384,11 @@ export default function Home() {
       ))}
     </div>
   </div>
-</section>
+</section></FadeIn>
 
       
 {/* OPERATIONAL SCENARIOS */}
-<section className="px-6 py-28">
+<FadeIn></FadeIn><section className="px-6 py-28">
   <div className="mx-auto max-w-7xl">
     <div className="mb-16 text-center">
       <div className="mb-4 text-sm tracking-[0.3em] text-orange-300">
@@ -443,10 +444,10 @@ export default function Home() {
       ))}
     </div>
   </div>
-</section>
+</section></FadeIn>
       
 {/* CONTACT */}
-<section
+<FadeIn><section
   id="contact"
   className="bg-white/5 px-6 py-28"
 >
@@ -563,7 +564,7 @@ export default function Home() {
       </button>
     </form>
   </div>
-</section>
+</section></FadeIn>
 
       {/* FOOTER */}
       <footer className="border-t border-white/10 bg-[#050b12] px-6 py-14">
