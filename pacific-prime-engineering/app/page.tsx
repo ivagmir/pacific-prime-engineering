@@ -61,6 +61,17 @@ export default function Home() {
               Contact
             </a>
           </nav>
+          <div className="hidden items-center gap-3 md:flex">
+  <button className="text-orange-300 font-semibold">
+    EN
+  </button>
+
+  <span className="text-slate-500">|</span>
+
+  <button className="text-slate-400 hover:text-white transition">
+    ES
+  </button>
+</div>
         </div>
       </header>
 
