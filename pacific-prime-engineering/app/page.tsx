@@ -215,26 +215,120 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CONTACT */}
-      <section
-        id="contact"
-        className="bg-white/5 px-6 py-28 text-center"
+{/* CONTACT */}
+<section
+  id="contact"
+  className="bg-white/5 px-6 py-28"
+>
+  <div className="mx-auto max-w-4xl">
+    <div className="mb-12 text-center">
+      <h2 className="section-title mb-4">
+        Request Technical Assessment
+      </h2>
+
+      <p className="mx-auto max-w-2xl text-slate-400">
+        Contact our engineering team for premium
+        technical support, operational continuity,
+        emergency response and reliability solutions.
+      </p>
+    </div>
+
+    <form
+      action="https://formsubmit.co/operations@pacificprimeengineering.com"
+      method="POST"
+      className="glass-card rounded-[2rem] p-10"
+    >
+      {/* Hidden FormSubmit Config */}
+      <input
+        type="hidden"
+        name="_subject"
+        value="New Pacific Prime Engineering Lead"
+      />
+
+      <input
+        type="hidden"
+        name="_captcha"
+        value="false"
+      />
+
+      <input
+        type="hidden"
+        name="_template"
+        value="table"
+      />
+
+      <div className="grid gap-6 md:grid-cols-2">
+        <input
+          type="text"
+          name="company"
+          placeholder="Company / Property"
+          required
+          className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none placeholder:text-slate-500"
+        />
+
+        <input
+          type="text"
+          name="contact_name"
+          placeholder="Contact Name"
+          required
+          className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none placeholder:text-slate-500"
+        />
+
+        <select
+          name="service_type"
+          className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none"
+        >
+          <option>Service Type</option>
+          <option>Water & Pumping Systems</option>
+          <option>Utilities Infrastructure</option>
+          <option>Hospitality Engineering</option>
+          <option>Industrial Maintenance</option>
+          <option>Emergency Response</option>
+        </select>
+
+        <select
+          name="urgency"
+          className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none"
+        >
+          <option>Urgency</option>
+          <option>Routine</option>
+          <option>Priority</option>
+          <option>Emergency 24/7</option>
+        </select>
+
+        <input
+          type="tel"
+          name="phone"
+          placeholder="Phone"
+          required
+          className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none placeholder:text-slate-500"
+        />
+
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          required
+          className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none placeholder:text-slate-500"
+        />
+      </div>
+
+      <textarea
+        name="project_details"
+        placeholder="Project Details"
+        rows={6}
+        className="mt-6 w-full rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none placeholder:text-slate-500"
+      />
+
+      <button
+        type="submit"
+        className="orange-glow mt-8 w-full rounded-full bg-orange-500 px-8 py-5 text-lg font-semibold transition hover:bg-orange-400"
       >
-        <h2 className="section-title mb-4">
-          Ready to Protect Your Operations?
-        </h2>
-
-        <p className="mx-auto mb-10 max-w-2xl text-slate-400">
-          Schedule a technical assessment or contact
-          our emergency response team.
-        </p>
-
-        <div className="flex flex-col items-center gap-3 text-slate-300">
-          <p>📍 Papagayo, Guanacaste, Costa Rica</p>
-          <p>📞 +506 8605-3534</p>
-          <p>✉ info@pacificprimeengineering.com</p>
-        </div>
-      </section>
+        Request Technical Assessment
+      </button>
+    </form>
+  </div>
+</section>
 
       {/* FOOTER */}
       <footer className="border-t border-white/10 bg-[#050b12] px-6 py-14">
