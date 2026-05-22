@@ -243,7 +243,7 @@ export default function Home() {
       ].map((industry) => (
         <div
           key={industry.title}
-          className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-2"
+          className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-3 hover:shadow-2xl duration-300"
         >
           <h3 className="mb-4 text-2xl font-semibold">
             {industry.title}
@@ -321,7 +321,7 @@ export default function Home() {
       ].map((item) => (
         <div
           key={item.title}
-          className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-2"
+          className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-3 hover:shadow-2xl duration-300"
         >
           <h3 className="mb-4 text-2xl font-semibold">
             {item.title}
@@ -427,7 +427,7 @@ export default function Home() {
       ].map((scenario) => (
         <div
           key={scenario.title}
-          className="glass-card rounded-[2rem] p-10 transition hover:-translate-y-2"
+          className="glass-card rounded-[2rem] p-10 transition hover:-translate-y-3 hover:shadow-2xl duration-300"
         >
           <div className="mb-4 text-sm tracking-[0.2em] text-orange-300">
             OPERATIONAL CASE
