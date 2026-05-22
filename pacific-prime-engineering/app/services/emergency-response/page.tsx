@@ -1,3 +1,4 @@
+
 export const metadata = {
   title: "Emergency Response",
   description:
@@ -30,12 +31,12 @@ export default function EmergencyResponsePage() {
           </h2>
 
           <ul className="space-y-4 text-slate-300">
-            <li>• Emergency troubleshooting</li>
-            <li>• Critical utilities support</li>
-            <li>• Pumping systems failures</li>
-            <li>• Technical operational continuity</li>
-            <li>• Hospitality emergency response</li>
-            <li>• Infrastructure reliability support</li>
+            <li>Emergency troubleshooting</li>
+            <li>Critical utilities support</li>
+            <li>Pumping systems failures</li>
+            <li>Technical operational continuity</li>
+            <li>Hospitality emergency response</li>
+            <li>Infrastructure reliability support</li>
           </ul>
         </div>
 
