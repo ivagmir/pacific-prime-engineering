@@ -250,6 +250,62 @@ export default function Home() {
         </div>
       </section>
 
+ {/* TRUST BUILDER */}
+<section className="bg-[#050b12] px-6 py-28">
+  <div className="mx-auto max-w-7xl">
+    <div className="mb-16 text-center">
+      <div className="mb-4 text-sm tracking-[0.3em] text-orange-300">
+        BUILT FOR CRITICAL OPERATIONS
+      </div>
+
+      <h2 className="section-title mb-6">
+        Trusted Where Operations Cannot Stop
+      </h2>
+
+      <p className="mx-auto max-w-3xl text-lg text-slate-400">
+        Pacific Prime Engineering is built around
+        operational continuity, rapid technical response
+        and premium engineering execution for critical
+        hospitality and infrastructure environments.
+      </p>
+    </div>
+
+    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+      {[
+        {
+          title: "Rapid Response",
+          desc: "Fast technical support when operational downtime is not an option.",
+        },
+        {
+          title: "Reliability Focus",
+          desc: "Solutions engineered to protect continuity and performance.",
+        },
+        {
+          title: "Hospitality Expertise",
+          desc: "Built for luxury resorts, villas and premium environments.",
+        },
+        {
+          title: "Premium Standards",
+          desc: "Professional execution aligned with high-end operations.",
+        },
+      ].map((item) => (
+        <div
+          key={item.title}
+          className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-2"
+        >
+          <h3 className="mb-4 text-2xl font-semibold">
+            {item.title}
+          </h3>
+
+          <p className="text-slate-400">
+            {item.desc}
+          </p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+      
 {/* CONTACT */}
 <section
   id="contact"
