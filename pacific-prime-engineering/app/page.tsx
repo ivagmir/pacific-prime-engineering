@@ -1,6 +1,8 @@
+"use client"
 import FadeIn from "./components/fade-in";
 
 import Image from "next/image";
+import { trackEvent } from "./lib/gtag";
 
 export default function Home() {
   const services = [
@@ -483,6 +485,11 @@ export default function Home() {
     <form
       action="https://formsubmit.co/operations@pacificprimeengineering.com"
       method="POST"
+      onSubmit={() =>
+        trackEvent("lead_form_submit",{
+          source: "website_contact",
+        })
+      }
       className="glass-card rounded-[2rem] p-10"
     >
       {/* Hidden FormSubmit Config */}
@@ -639,6 +646,11 @@ export default function Home() {
       <a
   href="https://wa.me/50686053534?text=Hello%20Pacific%20Prime%20Engineering"
   target="_blank"
+        onClick={() => 
+          trackEvent("whatsapp_click",{
+             source: "sticky_cta",
+          })
+        }
   className="fixed bottom-6 right-6 z-50 rounded-full bg-orange-500 px-6 py-4 font-semibold text-white shadow-2xl transition hover:scale-105"
 >
   WhatsApp 24/7
