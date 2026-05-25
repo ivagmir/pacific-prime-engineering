@@ -729,6 +729,27 @@ infrastructure.
 </section>
 </FadeIn>
 
+{/* LOCAL SEO */}
+<section className="border-t border-white/10 px-6 py-20">
+  <div className="mx-auto max-w-5xl text-center">
+    <div className="mb-4 text-sm tracking-[0.3em] text-orange-300">
+      SERVICE REGIONS
+    </div>
+
+    <h2 className="section-title mb-8">
+      Engineering Services Across Guanacaste
+    </h2>
+
+    <p className="mx-auto max-w-3xl text-lg leading-8 text-slate-400">
+      Pacific Prime Engineering provides premium
+      engineering support throughout Guanacaste,
+      including Papagayo, Liberia, Playa Hermosa,
+      Playa Panamá, Coco, Tamarindo, Nosara and
+      surrounding hospitality destinations.
+    </p>
+  </div>
+</section>
+      
       {/* FOOTER */}
 
       <footer className="border-t border-white/10 px-6 py-12 text-slate-400">
