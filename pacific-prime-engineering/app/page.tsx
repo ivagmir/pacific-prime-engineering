@@ -780,6 +780,10 @@ infrastructure.
     </div>
   </div>
 </footer>
+     <div className="mt-12 border-t border-white/10 pt-8 text-center text-sm text-slate-500">
+  © {new Date().getFullYear()} Pacific Prime Engineering.
+  Premium Engineering for Critical Operations.
+</div> 
 
       {/* FLOATING WHATSAPP */}
       <a
