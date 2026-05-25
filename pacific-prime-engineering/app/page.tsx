@@ -91,15 +91,21 @@ export default function Home() {
 </nav>
           
           <div className="hidden items-center gap-3 md:flex">
-  <button className="text-orange-300 font-semibold">
-    EN
-  </button>
+  <a
+  href="/en"
+  className="font-semibold text-orange-300"
+>
+  EN
+</a>
 
   <span className="text-slate-500">|</span>
 
-  <button className="text-slate-400 hover:text-white transition">
-    ES
-  </button>
+  <a
+  href="/es"
+  className="transition hover:text-white"
+>
+  ES
+</a>
 </div>
         </div>
       </header>
