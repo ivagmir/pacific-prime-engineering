@@ -111,6 +111,30 @@ export default function RootLayout({
     })(window, document, "clarity", "script", "wwrmaznipb");
   `}
 </Script>
+
+  <Script
+  id="local-business-schema"
+  type="application/ld+json"
+>
+  {JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    name: "Pacific Prime Engineering",
+    telephone: "+50686053534",
+    email:
+      "operations@pacificprimeengineering.com",
+    areaServed: [
+      "Papagayo",
+      "Guanacaste",
+      "Liberia",
+      "Playa Hermosa",
+      "Coco",
+      "Tamarindo",
+    ],
+    url:
+      "https://pacificprimeengineering.com",
+  })}
+</Script>      
         
       </body>
     </html>
