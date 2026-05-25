@@ -194,7 +194,7 @@ export default function Home() {
             Premium Engineering Services
           </h2>
 
-          <div className="grid gap-8 md:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-1 md:grid-cols-3">
             {services.map((service) => (
               <div
                 key={service}
@@ -243,7 +243,7 @@ export default function Home() {
       </h2>
     </div>
 
-    <div className="grid gap-8 md:grid-cols-3">
+    <div className="grid gap-8 md:grid-cols-1 md:grid-cols-3">
       {[
         {
           title: "Luxury Resorts",
@@ -502,7 +502,7 @@ export default function Home() {
         premium environments.
       </p>
 
-      <div className="mb-10 grid gap-6 md:grid-cols-3">
+      <div className="mb-10 grid gap-6 md:grid-cols-1 md:grid-cols-3">
         {[
           "Infrastructure Review",
           "Operational Risks",
@@ -545,7 +545,7 @@ export default function Home() {
       high-demand environments.
     </p>
 
-    <div className="grid gap-6 md:grid-cols-4">
+    <div className="grid gap-6 md:grid-cols-1 md:grid-cols-4">
       {[
         "Papagayo",
         "Guanacaste",
