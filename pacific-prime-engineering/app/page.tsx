@@ -24,7 +24,7 @@ export default function Home() {
   ];
 
   return (
-    <main className="min-h-screen text-white">
+    <main className="min-h-screen pt-28 md:pt-36">
       {/* NAVBAR */}
       <header className="fixed top-0 z-50 w-full border-b border-white/10 bg-[#071018]/70 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
