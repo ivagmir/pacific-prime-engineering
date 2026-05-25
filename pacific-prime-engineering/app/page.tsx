@@ -147,9 +147,12 @@ export default function Home() {
       PREMIUM ENGINEERING • PAPAGAYO • GUANACASTE
     </div>
 
-    <h1 className="mb-6 text-5xl font-bold leading-tight md:text-7xl">
-      Reliability Never Stops.
-    </h1>
+    <h1 className="mb-8 text-5xl font-bold leading-tight md:text-7xl">
+  Premium Engineering
+  <span className="block text-orange-400">
+    for Critical Operations
+  </span>
+</h1>
 
     <h2 className="mb-8 text-2xl font-light text-orange-300 md:text-4xl">
       Critical Infrastructure. Premium Response.
