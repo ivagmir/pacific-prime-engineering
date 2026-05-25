@@ -212,6 +212,17 @@ export default function Home() {
       </section>
       </FadeIn>
 
+{/* TRUST STRIP */}
+<section className="border-y border-white/10 bg-[#050b12] px-6 py-10">
+  <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-10 text-center text-sm tracking-[0.2em] text-slate-400 md:justify-between">
+    <div>24/7 TECHNICAL RESPONSE</div>
+    <div>HOSPITALITY OPERATIONS</div>
+    <div>PUMPING SYSTEMS</div>
+    <div>UTILITIES INFRASTRUCTURE</div>
+    <div>OPERATIONAL CONTINUITY</div>
+  </div>
+</section>
+      
 {/* INDUSTRIES */}
 <FadeIn>
   <section
@@ -512,6 +523,42 @@ export default function Home() {
     </div>
   </div>
 </section>
+
+{/* SERVICE FOOTPRINT */}
+<section className="px-6 py-28">
+  <div className="mx-auto max-w-6xl text-center">
+    <div className="mb-4 text-sm tracking-[0.3em] text-orange-300">
+      SERVICE FOOTPRINT
+    </div>
+
+    <h2 className="section-title mb-6">
+      Serving Guanacaste & Premium Hospitality Destinations
+    </h2>
+
+    <p className="mx-auto mb-12 max-w-3xl text-lg text-slate-400">
+      Pacific Prime Engineering supports hospitality,
+      villas and operational infrastructure throughout
+      Guanacaste, including Papagayo and surrounding
+      high-demand environments.
+    </p>
+
+    <div className="grid gap-6 md:grid-cols-4">
+      {[
+        "Papagayo",
+        "Guanacaste",
+        "Luxury Villas",
+        "Hospitality Operations",
+      ].map((item) => (
+        <div
+          key={item}
+          className="glass-card rounded-[2rem] p-6"
+        >
+          {item}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
       
 {/* CONTACT */}
 <FadeIn>
@@ -642,49 +689,56 @@ infrastructure.
 </FadeIn>
 
       {/* FOOTER */}
-      <footer className="border-t border-white/10 bg-[#050b12] px-6 py-14">
-        <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-3">
-          <div>
-            <div className="mb-5">
-              <Image
-                src="/ppe-logo.png"
-                alt="Pacific Prime Engineering"
-                width={120}
-                height={120}
-              />
-            </div>
 
-            <p className="text-orange-300">
-              Reliability Never Stops.
-            </p>
+      <footer className="border-t border-white/10 px-6 py-12 text-slate-400">
+  <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-3">
+    <div>
+      <h3 className="mb-4 text-lg font-semibold text-white">
+        Pacific Prime Engineering
+      </h3>
 
-            <p className="mt-4 text-slate-400">
-              Critical Infrastructure. Premium Response.
-            </p>
-          </div>
+      <p className="leading-7">
+        Premium engineering support for hospitality,
+        pumping systems, utilities infrastructure and
+        operational continuity in Guanacaste.
+      </p>
+    </div>
 
-          <div>
-            <h4 className="mb-4 font-semibold">Services</h4>
+    <div>
+      <h4 className="mb-4 font-semibold text-white">
+        Core Services
+      </h4>
 
-            <div className="space-y-2 text-slate-400">
-              <p>Water & Pumping Systems</p>
-              <p>Utilities Infrastructure</p>
-              <p>Hospitality Engineering</p>
-              <p>Emergency Response</p>
-            </div>
-          </div>
+      <ul className="space-y-2">
+        <li>
+          <a href="/services/hospitality-engineering">
+            Hospitality Engineering
+          </a>
+        </li>
+        <li>
+          <a href="/services/pumping-systems">
+            Pumping Systems
+          </a>
+        </li>
+        <li>
+          <a href="/services/emergency-response">
+            Emergency Response
+          </a>
+        </li>
+      </ul>
+    </div>
 
-          <div>
-            <h4 className="mb-4 font-semibold">Contact</h4>
+    <div>
+      <h4 className="mb-4 font-semibold text-white">
+        Contact
+      </h4>
 
-            <div className="space-y-2 text-slate-400">
-              <p>Papagayo, Guanacaste</p>
-              <p>+506 8605-3534</p>
-              <p>info@pacificprimeengineering.com</p>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <p>operations@pacificprimeengineering.com</p>
+      <p>+506 8605-3534</p>
+      <p>Papagayo, Guanacaste</p>
+    </div>
+  </div>
+</footer>
 
       {/* FLOATING WHATSAPP */}
       <a
