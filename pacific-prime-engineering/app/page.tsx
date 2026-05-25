@@ -164,7 +164,12 @@ export default function Home() {
 
     <div className="flex flex-col items-center justify-center gap-5 sm:flex-row">
       <button className="orange-glow rounded-full bg-orange-500 px-10 py-5 text-lg font-semibold transition hover:scale-105 hover:bg-orange-400">
-        Request Technical Assessment
+        Complimentary Technical Assessment
+        <p className="mt-4 max-w-2xl text-lg text-slate-400">
+  Complimentary technical assessment for hospitality,
+  villas and mission-critical infrastructure across
+  Guanacaste and Papagayo.
+</p>
       </button>
 
       <a
@@ -462,6 +467,51 @@ export default function Home() {
   </div>
 </section>
 </FadeIn>
+
+{/* EXECUTIVE ASSESSMENT */}
+<section className="bg-white/5 px-6 py-28">
+  <div className="mx-auto max-w-6xl">
+    <div className="glass-card rounded-[2.5rem] p-12 text-center">
+      <div className="mb-4 text-sm tracking-[0.3em] text-orange-300">
+        EXECUTIVE TECHNICAL REVIEW
+      </div>
+
+      <h2 className="section-title mb-6">
+        Complimentary Infrastructure Reliability Assessment
+      </h2>
+
+      <p className="mx-auto mb-10 max-w-3xl text-lg leading-8 text-slate-400">
+        Pacific Prime Engineering offers a complimentary
+        technical assessment focused on operational
+        continuity, pumping systems, utilities reliability
+        and infrastructure risks for hospitality and
+        premium environments.
+      </p>
+
+      <div className="mb-10 grid gap-6 md:grid-cols-3">
+        {[
+          "Infrastructure Review",
+          "Operational Risks",
+          "Reliability Recommendations",
+        ].map((item) => (
+          <div
+            key={item}
+            className="rounded-2xl border border-white/10 bg-white/5 p-6"
+          >
+            {item}
+          </div>
+        ))}
+      </div>
+
+      <a
+        href="#contact"
+        className="orange-glow inline-flex rounded-full bg-orange-500 px-10 py-5 text-lg font-semibold transition hover:bg-orange-400"
+      >
+        Request Complimentary Assessment
+      </a>
+    </div>
+  </div>
+</section>
       
 {/* CONTACT */}
 <FadeIn>
@@ -472,13 +522,14 @@ export default function Home() {
   <div className="mx-auto max-w-4xl">
     <div className="mb-12 text-center">
       <h2 className="section-title mb-4">
-        Request Technical Assessment
+        Request Complimentary Assessment
       </h2>
 
       <p className="mx-auto max-w-2xl text-slate-400">
-        Contact our engineering team for premium
-        technical support, operational continuity,
-        emergency response and reliability solutions.
+        Contact our engineering team to schedule a
+complimentary technical assessment for your
+property, utilities systems or operational
+infrastructure.
       </p>
     </div>
 
