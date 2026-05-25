@@ -670,18 +670,56 @@ infrastructure.
         />
       </div>
 
+<div>
+  <label className="mb-2 block text-sm text-slate-300">
+    Service Needed
+  </label>
+
+  <select
+    name="service"
+    className="w-full rounded-2xl border border-white/10 bg-white/5 p-4 text-white outline-none"
+    defaultValue=""
+  >
+    <option value="" disabled>
+      Select Service
+    </option>
+
+    <option>
+      Hospitality Engineering
+    </option>
+
+    <option>
+      Pumping Systems
+    </option>
+
+    <option>
+      Emergency Response
+    </option>
+
+    <option>
+      Industrial Maintenance
+    </option>
+
+    <option>
+      Utilities Infrastructure
+    </option>
+  </select>
+</div>
+      
       <textarea
         name="project_details"
         placeholder="Project Details"
         rows={6}
         className="mt-6 w-full rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none placeholder:text-slate-500"
       />
-
+<div className="rounded-2xl border border-orange-500/20 bg-orange-500/10 p-4 text-sm text-orange-200">
+  Priority response available for operational-critical situations.
+</div>
       <button
         type="submit"
         className="orange-glow mt-8 w-full rounded-full bg-orange-500 px-8 py-5 text-lg font-semibold transition hover:bg-orange-400"
       >
-        Request Technical Assessment
+        Request Complimentary Assessment
       </button>
     </form>
   </div>
@@ -749,7 +787,7 @@ infrastructure.
         WhatsApp 24/7
       </a>
       <a
-  href="https://wa.me/50686053534?text=Hello%20Pacific%20Prime%20Engineering"
+  href="https://wa.me/50686053534?text=Hello%20Pacific%20Prime%20Engineering,%20I%20would%20like%20a%20technical%20assessment." 
   target="_blank"
         onClick={() => 
           trackEvent("whatsapp_click",{
@@ -758,7 +796,7 @@ infrastructure.
         }
   className="fixed bottom-6 right-6 z-50 rounded-full bg-orange-500 px-6 py-4 font-semibold text-white shadow-2xl transition hover:scale-105"
 >
-  WhatsApp 24/7
+  Technical Support
 </a>
     </main>
   );
