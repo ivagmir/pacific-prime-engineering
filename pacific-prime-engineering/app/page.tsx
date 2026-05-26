@@ -39,10 +39,10 @@ export default function Home() {
   <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
     
     {/* LOGO */}
-    <a
+    <a style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}
       href="/"
       className="text-lg font-semibold tracking-wide"
-    > <img src="/ppe-logo.png" alt="Pacific Prime Engineering" width="180" height="50"></img>
+    > <img src="/ppe-logo.png" alt="Pacific Prime Engineering" width="180" height="30"></img>
       Pacific Prime Engineering
     </a>
 
