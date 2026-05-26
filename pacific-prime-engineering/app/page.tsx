@@ -42,7 +42,7 @@ export default function Home() {
     <a
       href="/"
       className="text-lg font-semibold tracking-wide"
-    >
+    > <img src="/ppe-logo.png" alt="Pacific Prime Engineering" width="180" height="50"></img>
       Pacific Prime Engineering
     </a>
 
@@ -70,10 +70,10 @@ export default function Home() {
       </a>
 
       <a
-        href="/services/pumping-systems"
+        href="#newservices"
         className="transition hover:text-orange-300"
       >
-        Pumping Systems
+        Services
       </a>
 
       <a
@@ -284,6 +284,10 @@ export default function Home() {
           title: "Solar Networks",
           desc: "24/7 engineering support when operations cannot stop.",
         },
+        {
+          title: "Automation & Controls",
+          desc: "24/7 engineering support when operations cannot stop.",
+        },
       ].map((newserviceitem) => (
         <div
           key={newserviceitem.title}
@@ -302,35 +306,6 @@ export default function Home() {
   </div>
 </section>
 </FadeIn>
-
-      {/* SERVICES */}
-      <FadeIn>
-      <section id="services" className="px-6 py-28">
-        <div className="mx-auto max-w-7xl">
-          <h2 className="section-title mb-14 text-center">
-            Premium Engineering Services
-          </h2>
-
-          <div className="grid gap-8 md:grid-cols-1 md:grid-cols-3">
-            {services.map((service) => (
-              <div
-                key={service}
-                className="glass-card rounded-[2rem] p-8 transition duration-300 hover:-translate-y-2"
-              >
-                <h3 className="mb-4 text-2xl font-semibold">
-                  {service}
-                </h3>
-
-                <p className="text-slate-400">
-                  Premium engineering and reliability-focused
-                  solutions designed for critical operations.
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-      </FadeIn>
 
 {/* TRUST STRIP */}
 <section className="border-y border-white/10 bg-[#050b12] px-6 py-10">
