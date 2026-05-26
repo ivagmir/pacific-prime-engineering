@@ -302,7 +302,7 @@ export default function Home() {
             {newserviceitem.title}
           </h3>
 
-          <p className="text-slate-400">
+          <p className="text-slate-300">
             {newserviceitem.desc}
           </p>
         </div>
