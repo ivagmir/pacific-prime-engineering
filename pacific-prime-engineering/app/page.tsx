@@ -314,15 +314,19 @@ export default function Home() {
 
 {/* TRUST STRIP */}
 <section className="border-y border-white/10 bg-[#050b12] px-6 py-10">
-  <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-10 text-center text-sm tracking-[0.2em] text-slate-400 md:justify-between">
+  <div className="mx-auto flex max-w-4xl flex-wrap items-center justify-center gap-10 text-center text-sm tracking-[0.2em] text-slate-400 md:justify-between">
     <div>24/7 TECHNICAL RESPONSE</div>
     <div>HOSPITALITY OPERATIONS</div>
     <div>PUMPING SYSTEMS</div>
     <div>UTILITIES INFRASTRUCTURE</div>
     <div>OPERATIONAL CONTINUITY</div>
-    <div>TELECOMM & CCTV NETWORKS</div>
+    <div>TELECOM & CCTV NETWORKS</div>
     <div>ENERGY SOLUTIONS</div>
     <div>SOLAR NETWORKS</div>
+    <div>AUTOMATION & CONTROLS</div>
+    <div>WATER & WASTEWATER</div>
+    <div>HVAC & CHILLERS</div>
+    <div>POWER & DISTRIBUTION</div>
   </div>
 </section>
       
