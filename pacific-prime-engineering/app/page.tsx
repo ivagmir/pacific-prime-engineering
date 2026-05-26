@@ -254,7 +254,7 @@ export default function Home() {
       {[
         {
           title: "Water & Pumping Systems",
-          desc: "Mission-critical hospitality engineering and operational continuity.",
+          desc: "Keep your water flowing efficiently. Discover expert water infrastructure and pumping system design, built to optimize energy savings, reduce downtime, and maximize performance for any project size.",
         },
         {
           title: "Utilities Infrastructure",
