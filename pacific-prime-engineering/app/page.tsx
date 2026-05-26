@@ -241,11 +241,11 @@ export default function Home() {
 >
   <div className="mx-auto max-w-7xl">
     <div className="mb-14 text-center">
-      <div className="mb-4 text-sm tracking-[0.3em] text-orange-300">
+      <div className="mb-4 text-sm tracking-[0.6em] text-orange-600">
         Our Services
       </div>
 
-      <h2 className="section-title">
+      <h2 className="section-title mb-6">
         Premium Engineering Services
       </h2>
     </div>
