@@ -212,12 +212,18 @@ export default function Home() {
       for luxury hospitality and critical infrastructure
       across Guanacaste and Costa Rica.
     </p>
+    <p className="mx-auto mb-12 max-w-3xl text-lg text-slate-200 md:text-xl">
+      For industrial plants and hospitality properties, a single utility failure 
+      can halt production or devastate guest satisfaction. Our senior infrastructure 
+      engineers will conduct a high-level review of your current systems to identify 
+      hidden vulnerabilities, regulatory compliance gaps, and energy-saving opportunities.
+    </p>
 
     <div className="flex flex-col items-center justify-center gap-5 sm:flex-row">
       <button className="orange-glow rounded-full bg-orange-500 px-10 py-5 text-lg font-semibold transition hover:scale-105 hover:bg-orange-400">
         Complimentary Technical Assessment
-        <p className="mt-3 max-w-3xl text-lg text-slate-200">
-  For industrial plants and hospitality properties, a single utility failure can halt production or devastate guest satisfaction. Our senior infrastructure engineers will conduct a high-level review of your current systems to identify hidden vulnerabilities, regulatory compliance gaps, and energy-saving opportunities.
+        <p className="mt-3 max-w-2xl text-lg text-slate-300">
+          Uncover Inefficiencies Before They Cause Downtime.
 </p>
       </button>
 
@@ -240,7 +246,7 @@ export default function Home() {
 >
   <div className="mx-auto max-w-7xl">
     <div className="mb-14 text-center">
-      <div className="mb-4 text-sm tracking-[0.6em] text-orange-600">
+      <div className="mb-8 text-lg tracking-[0.6em] text-orange-600">
         Our Services
       </div>
 
