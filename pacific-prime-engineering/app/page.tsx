@@ -15,8 +15,11 @@ export default function Home() {
     "Utilities Infrastructure",
     "Hospitality Engineering",
     "Industrial Maintenance",
-    "Emergency Response",
+    "Operational Continuity",
     "Reliability Assessments",
+    "Telecom and CCTV Networks",
+    "Energy Solutions",
+    "Solar Networks",
   ];
 
   const industries = [
@@ -25,7 +28,7 @@ export default function Home() {
     "Marinas",
     "Hospitality",
     "Industrial Facilities",
-    "Food & Beverage",
+    "Food & Beverage Industry",
   ];
 
   return (
@@ -181,19 +184,19 @@ export default function Home() {
       <Image
         src="/ppe-logo.png"
         alt="Pacific Prime Engineering"
-        width={180}
-        height={180}
+        width={380}
+        height={380}
         priority
         className="drop-shadow-2xl"
       />
     </div>
 
     <div className="mb-8 inline-flex rounded-full border border-orange-400/20 bg-white/10 px-6 py-3 text-sm tracking-[0.25em] text-orange-300 backdrop-blur-md">
-      PREMIUM ENGINEERING • PAPAGAYO • GUANACASTE
+      PREMIUM HOSPITALITY ENGINEERING • PAPAGAYO GULF • GUANACASTE • COSTA RICA
     </div>
 
     <h1 className="mb-8 text-5xl font-bold leading-tight md:text-7xl">
-  Premium Engineering
+  Premium Hospitality Engineering
   <span className="block text-orange-400">
     for Critical Operations
   </span>
@@ -205,9 +208,9 @@ export default function Home() {
 
     <p className="mx-auto mb-12 max-w-3xl text-lg text-slate-200 md:text-xl">
       Operational continuity, utilities engineering,
-      pumping systems and premium technical response
+      pumping systems, telecom and premium technical response
       for luxury hospitality and critical infrastructure
-      across Guanacaste.
+      across Guanacaste and Costa Rica.
     </p>
 
     <div className="flex flex-col items-center justify-center gap-5 sm:flex-row">
@@ -215,8 +218,7 @@ export default function Home() {
         Complimentary Technical Assessment
         <p className="mt-4 max-w-2xl text-lg text-slate-400">
   Complimentary technical assessment for hospitality,
-  villas and mission-critical infrastructure across
-  Guanacaste and Papagayo.
+  villas and mission-critical infrastructure across Papagayo Gulf and Guanacaste Area.
 </p>
       </button>
 
@@ -231,6 +233,76 @@ export default function Home() {
   </div>
 </section>
      
+{/* NEWSERVICES */}
+<FadeIn>
+  <section
+  id="newservices"
+  className="bg-white/5 px-6 py-28"
+>
+  <div className="mx-auto max-w-7xl">
+    <div className="mb-14 text-center">
+      <div className="mb-4 text-sm tracking-[0.3em] text-orange-300">
+        Our Services
+      </div>
+
+      <h2 className="section-title">
+        Premium Engineering Services
+      </h2>
+    </div>
+
+    <div className="grid gap-8 md:grid-cols-1 md:grid-cols-3">
+      {[
+        {
+          title: "Water & Pumping Systems",
+          desc: "Mission-critical hospitality engineering and operational continuity.",
+        },
+        {
+          title: "Utilities Infrastructure",
+          desc: "Premium technical support for high-end residential operations.",
+        },
+        {
+          title: "Hospitality Engineering",
+          desc: "Utilities, pumping systems and reliability support.",
+        },
+        {
+          title: "Industrial Maintenance",
+          desc: "Industrial technical operations and process support.",
+        },
+        {
+          title: "Operational Continuity",
+          desc: "Engineering support for essential operational systems.",
+        },
+        {
+          title: "Telecom and CCTV Networks",
+          desc: "24/7 engineering support when operations cannot stop.",
+        },
+        {
+          title: "Energy Solutions",
+          desc: "24/7 engineering support when operations cannot stop.",
+        },
+        {
+          title: "Solar Networks",
+          desc: "24/7 engineering support when operations cannot stop.",
+        },
+      ].map((newserviceitem) => (
+        <div
+          key={newserviceitem.title}
+          className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-3 hover:shadow-2xl duration-300"
+        >
+          <h3 className="mb-4 text-2xl font-semibold">
+            {newserviceitem.title}
+          </h3>
+
+          <p className="text-slate-400">
+            {newserviceitem.desc}
+          </p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+</FadeIn>
+
       {/* SERVICES */}
       <FadeIn>
       <section id="services" className="px-6 py-28">
@@ -268,6 +340,9 @@ export default function Home() {
     <div>PUMPING SYSTEMS</div>
     <div>UTILITIES INFRASTRUCTURE</div>
     <div>OPERATIONAL CONTINUITY</div>
+    <div>TELECOMM & CCTV NETWORKS</div>
+    <div>ENERGY SOLUTIONS</div>
+    <div>SOLAR NETWORKS</div>
   </div>
 </section>
       
