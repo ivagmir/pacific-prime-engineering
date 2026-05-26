@@ -1,10 +1,15 @@
 "use client"
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+
 import FadeIn from "./components/fade-in";
 
 import Image from "next/image";
 import { trackEvent } from "./lib/gtag";
 
 export default function Home() {
+  const [menuOpen, setMenuOpen] =
+  useState(false);
   const services = [
     "Water & Pumping Systems",
     "Utilities Infrastructure",
@@ -26,91 +31,131 @@ export default function Home() {
   return (
     <main className="min-h-screen pt-28 md:pt-36">
       {/* NAVBAR */}
-      <header className="fixed top-0 z-50 w-full border-b border-white/10 bg-[#071018]/70 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <div className="flex items-center gap-4">
-            <Image
-              src="/ppe-logo.png"
-              alt="Pacific Prime Engineering"
-              width={60}
-              height={60}
-              priority
-              className="object-contain"
-            />
+   
+<header className="fixed top-0 z-50 w-full border-b border-white/10 bg-[#071018]/90 backdrop-blur-xl">
+  <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+    
+    {/* LOGO */}
+    <a
+      href="/"
+      className="text-lg font-semibold tracking-wide"
+    >
+      Pacific Prime Engineering
+    </a>
 
-            <div>
-              <h1 className="text-lg font-bold tracking-wide">
-                PACIFIC PRIME ENGINEERING
-              </h1>
-              <p className="text-xs text-orange-300">
-                Reliability Never Stops.
-              </p>
-            </div>
-          </div>
+    {/* DESKTOP MENU */}
+    <nav className="hidden items-center gap-8 text-sm md:flex">
+      <a
+        href="/"
+        className="transition hover:text-orange-300"
+      >
+        Home
+      </a>
 
-<nav className="hidden gap-8 text-sm md:flex">
-  <a
-    href="/"
-    className="transition hover:text-orange-300"
-  >
-    Home
-  </a>
+      <a
+        href="#industries"
+        className="transition hover:text-orange-300"
+      >
+        Industries
+      </a>
 
-  <a
-    href="#industries"
-    className="transition hover:text-orange-300"
-  >
-    Industries
-  </a>
+      <a
+        href="/services/hospitality-engineering"
+        className="transition hover:text-orange-300"
+      >
+        Hospitality
+      </a>
 
-  <a
-    href="/services/hospitality-engineering"
-    className="transition hover:text-orange-300"
-  >
-    Hospitality
-  </a>
+      <a
+        href="/services/pumping-systems"
+        className="transition hover:text-orange-300"
+      >
+        Pumping Systems
+      </a>
 
-  <a
-    href="/services/pumping-systems"
-    className="transition hover:text-orange-300"
-  >
-    Pumping Systems
-  </a>
+      <a
+        href="/services/emergency-response"
+        className="transition hover:text-orange-300"
+      >
+        Emergency
+      </a>
 
-  <a
-    href="/services/emergency-response"
-    className="transition hover:text-orange-300"
-  >
-    Emergency
-  </a>
+      <a
+        href="#contact"
+        className="transition hover:text-orange-300"
+      >
+        Contact
+      </a>
 
-  <a
-    href="#contact"
-    className="transition hover:text-orange-300"
-  >
-    Contact
-  </a>
-</nav>
-          
-          <div className="hidden items-center gap-3 md:flex">
-  <a
-  href="/en"
-  className="font-semibold text-orange-300"
->
-  EN
-</a>
+      {/* LANGUAGE SWITCH */}
+      <div className="flex items-center gap-3 rounded-full border border-white/10 px-3 py-2">
+        <a
+          href="/en"
+          className="text-orange-300"
+        >
+          EN
+        </a>
 
-  <span className="text-slate-500">|</span>
+        <span className="text-slate-500">
+          |
+        </span>
 
-  <a
-  href="/es"
-  className="transition hover:text-white"
->
-  ES
-</a>
-</div>
+        <a
+          href="/es"
+          className="transition hover:text-orange-300"
+        >
+          ES
+        </a>
+      </div>
+    </nav>
+
+    {/* MOBILE BUTTON */}
+    <button
+      onClick={() => setMenuOpen(!menuOpen)}
+      className="md:hidden"
+    >
+      {menuOpen ? <X size={28} /> : <Menu size={28} />}
+    </button>
+  </div>
+
+  {/* MOBILE MENU */}
+  {menuOpen && (
+    <div className="border-t border-white/10 bg-[#071018] px-6 py-6 md:hidden">
+      <div className="flex flex-col gap-5 text-lg">
+        <a href="/">Home</a>
+        <a href="#industries">Industries</a>
+        <a href="/services/hospitality-engineering">
+          Hospitality
+        </a>
+
+        <a href="/services/pumping-systems">
+          Pumping Systems
+        </a>
+
+        <a href="/services/emergency-response">
+          Emergency
+        </a>
+
+        <a href="#contact">Contact</a>
+
+        {/* LANGUAGE SWITCH MOBILE */}
+        <div className="mt-4 flex gap-4 text-base">
+          <a
+            href="/en"
+            className="text-orange-300"
+          >
+            EN
+          </a>
+
+          <a href="/es">
+            ES
+          </a>
         </div>
-      </header>
+      </div>
+    </div>
+  )}
+</header>
+  
 
       {/* HERO */}
 <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-6">
