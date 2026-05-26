@@ -258,35 +258,35 @@ export default function Home() {
         },
         {
           title: "Utilities Infrastructure",
-          desc: "Premium technical support for high-end residential operations.",
+          desc: "Our team helps identify vulnerabilities, optimize performance and implement solutions to ensure reliable utilities infrastructure that supports operational continuity and guest satisfaction.",
         },
         {
           title: "Hospitality Engineering",
-          desc: "Utilities, pumping systems and reliability support.",
+          desc: "We specialize in hospitality engineering, providing tailored solutions to ensure seamless operations, guest comfort and infrastructure reliability for luxury resorts, villas and premium hospitality environments.",
         },
         {
           title: "Industrial Maintenance",
-          desc: "Industrial technical operations and process support.",
+          desc: "Our team supports preventive maintenance, mechanical and electrical troubleshooting, equipment reliability and thechnical interventios focused on keeping essential systems opetating efficiently.",
         },
         {
           title: "Operational Continuity",
-          desc: "Engineering support for essential operational systems.",
+          desc: "We identify opdrational risks, implement reliability solutions and provide rapid technical response to protect operational continuity for hospitality and critical infrastructure environments.",
         },
         {
           title: "Telecom and CCTV Networks",
-          desc: "24/7 engineering support when operations cannot stop.",
+          desc: "We support the assessment, installation, troubleshooting and optimization of telecommunications and surveillance systems, helping ensure dependable network performance and uninterrupted monitoring capabilities.",
         },
         {
           title: "Energy Solutions",
-          desc: "24/7 engineering support when operations cannot stop.",
+          desc: "Evaluation, optimization and implementation of energy-focused solutions tailored to operational demands, including power reliability, energy efficiency strategies, backup systemssupport and infraeestructure performance assessment.",
         },
         {
           title: "Solar Networks",
-          desc: "24/7 engineering support when operations cannot stop.",
+          desc: "Our engineering approach focuses in performance, system reliability and practical energy solutions, providing expert support for solar network design, installation and maintenance to optimize energy production and operational continuity.",
         },
         {
           title: "Automation & Controls",
-          desc: "24/7 engineering support when operations cannot stop.",
+          desc: "From system controls and monitoring to process optimization and technical support, our engineering approach focuses on precision, efficiency and long-term operational resilience.",
         },
       ].map((newserviceitem) => (
         <div
