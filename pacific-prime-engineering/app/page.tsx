@@ -216,9 +216,8 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center gap-5 sm:flex-row">
       <button className="orange-glow rounded-full bg-orange-500 px-10 py-5 text-lg font-semibold transition hover:scale-105 hover:bg-orange-400">
         Complimentary Technical Assessment
-        <p className="mt-4 max-w-2xl text-lg text-slate-400">
-  Complimentary technical assessment for hospitality,
-  villas and mission-critical infrastructure across Papagayo Gulf and Guanacaste Area.
+        <p className="mt-3 max-w-3xl text-lg text-slate-200">
+  For industrial plants and hospitality properties, a single utility failure can halt production or devastate guest satisfaction. Our senior infrastructure engineers will conduct a high-level review of your current systems to identify hidden vulnerabilities, regulatory compliance gaps, and energy-saving opportunities.
 </p>
       </button>
 
