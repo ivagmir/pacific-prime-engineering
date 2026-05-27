@@ -9,6 +9,28 @@ import { trackEvent } from "../../lib/gtag";
 
 
 export default function HospitalityEngineeringPage() {
+const [menuOpen, setMenuOpen] =
+  useState(false);
+  const services = [
+    "Water & Pumping Systems",
+    "Utilities Infrastructure",
+    "Hospitality Engineering",
+    "Industrial Maintenance",
+    "Operational Continuity",
+    "Reliability Assessments",
+    "Telecom and CCTV Networks",
+    "Energy Solutions",
+    "Solar Networks",
+  ];
+
+  const industries = [
+    "Luxury Resorts",
+    "Luxury Villas",
+    "Marinas",
+    "Hospitality",
+    "Industrial Facilities",
+    "Food & Beverage Industry",
+  ];
   return (
     <main className="min-h-screen bg-[#071018] px-6 py-28 text-white">
 
