@@ -126,15 +126,16 @@ export default function Home() {
     <div className="border-t border-white/10 bg-[#071018] px-6 py-6 md:hidden">
       <div className="flex flex-col gap-5 text-lg">
         <a href="/">Home</a>
-        <a href="#industries">Industries</a>
         <a href="/services/hospitality-engineering">
           Hospitality
         </a>
-
+        <a href="#industries">Industries</a>
         <a href="/services/pumping-systems">
           Pumping Systems
         </a>
-
+        <a href="/">
+          Critical Infrastructure
+        </a>
         <a href="/services/emergency-response">
           Emergency
         </a>
@@ -207,8 +208,9 @@ export default function Home() {
     </h2>
 
     <p className="mx-auto mb-12 max-w-3xl text-lg text-slate-200 md:text-xl">
-      Operational continuity, utilities engineering,
-      pumping systems, telecom and premium technical response
+      Operational continuity, utilities engineering, 
+      Mechanical Electrical and Plumbing (MEP) support, energy solutions,
+      telecommunications and premium technical response
       for luxury hospitality and critical infrastructure
       across Guanacaste and Costa Rica.
     </p>
@@ -260,38 +262,47 @@ export default function Home() {
         {
           title: "Water & Pumping Systems",
           desc: "Keep your water flowing efficiently. Discover expert water infrastructure and pumping system design, built to optimize energy savings, reduce downtime, and maximize performance for any project size.",
+          link: "/services/pumping-systems",
         },
         {
           title: "Utilities Infrastructure",
           desc: "Our team helps identify vulnerabilities, optimize performance and implement solutions to ensure reliable utilities infrastructure that supports operational continuity and guest satisfaction.",
+          link: "/services/utilities-infrastructure",
         },
         {
           title: "Hospitality Engineering",
           desc: "We specialize in hospitality engineering, providing tailored solutions to ensure seamless operations, guest comfort and infrastructure reliability for luxury resorts, villas and premium hospitality environments.",
+          link: "/services/hospitality-engineering",
         },
         {
           title: "Industrial Maintenance",
           desc: "Our team supports preventive maintenance, mechanical and electrical troubleshooting, equipment reliability and thechnical interventios focused on keeping essential systems opetating efficiently.",
+          link: "/services/industrial-maintenance",
         },
         {
           title: "Operational Continuity",
           desc: "We identify opdrational risks, implement reliability solutions and provide rapid technical response to protect operational continuity for hospitality and critical infrastructure environments.",
+          link: "/services/operational-continuity",
         },
         {
           title: "Telecom and CCTV Networks",
           desc: "We support the assessment, installation, troubleshooting and optimization of telecommunications and surveillance systems, helping ensure dependable network performance and uninterrupted monitoring capabilities.",
+          link: "/services/telecom-cctv-networks",
         },
         {
           title: "Energy Solutions",
           desc: "Evaluation, optimization and implementation of energy-focused solutions tailored to operational demands, including power reliability, energy efficiency strategies, backup systemssupport and infraeestructure performance assessment.",
+          link: "/services/energy-solutions",
         },
         {
           title: "Solar Networks",
           desc: "Our engineering approach focuses in performance, system reliability and practical energy solutions, providing expert support for solar network design, installation and maintenance to optimize energy production and operational continuity.",
+          link: "/services/solar-networks",
         },
         {
           title: "Automation & Controls",
           desc: "From system controls and monitoring to process optimization and technical support, our engineering approach focuses on precision, efficiency and long-term operational resilience.",
+          link: "/services/automation-controls",
         },
       ].map((newserviceitem) => (
         <div
@@ -314,7 +325,7 @@ export default function Home() {
 
 {/* TRUST STRIP */}
 <section className="border-y border-white/10 bg-[#050b12] px-6 py-10">
-  <div className="mx-auto flex max-w-4xl flex-wrap items-center justify-around gap-10 text-center text-sm tracking-[0.2em] text-slate-300 md:justify-around">
+  <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-around gap-10 text-center text-sm tracking-[0.2em] text-slate-300 md:justify-around">
     <div>24/7 TECHNICAL RESPONSE</div>
     <div>HOSPITALITY OPERATIONS</div>
     <div>PUMPING SYSTEMS</div>
@@ -377,7 +388,14 @@ export default function Home() {
         <div
           key={industry.title}
           className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-3 hover:shadow-2xl duration-300"
+        ><a
+          key={industry.title}
+          href={industry.link}
+          className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-2 hover:border-orange-400/30"
         >
+          <div className="mb-4 text-sm tracking-[0.2em] text-orange-300">
+            SERVICE
+          </div>
           <h3 className="mb-4 text-2xl font-semibold">
             {industry.title}
           </h3>
