@@ -308,7 +308,11 @@ export default function Home() {
         <div
           key={newserviceitem.title}
           className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-3 hover:shadow-2xl duration-300"
-        >
+        ><a
+          key={newserviceitem.title}
+          href={newserviceitem.link}
+          className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-2 hover:border-orange-400/30"
+        ></a>
           <h3 className="mb-4 text-2xl font-semibold">
             {newserviceitem.title}
           </h3>
@@ -393,11 +397,7 @@ export default function Home() {
           <div className="mb-4 text-sm tracking-[0.2em] text-orange-300">
             SERVICE
           </div>
-          <a
-          key={industry.title}
-          href={industry.link}
-          className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-2 hover:border-orange-400/30"
-        ></a>
+          
           <h3 className="mb-4 text-2xl font-semibold">
             {industry.title}
           </h3>
