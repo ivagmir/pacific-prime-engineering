@@ -275,7 +275,7 @@ export default function Home() {
           link: "/services/hospitality-engineering",
         },
         {
-          title: "Pools & Jacuzzi Systems,
+          title: "Pools & Jacuzzi Systems",
           desc: "We support assessment, troubleshooting, optimization and maintenance of pumps, filtration systems, circulation equipment, heating systems, automation controls and supporting infrastructure of aquatic systems.",
           link: "/services/pools-jacuzzi-systems",
         },
