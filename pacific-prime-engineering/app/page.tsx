@@ -264,6 +264,11 @@ export default function Home() {
           desc: "Keep your water flowing efficiently. Discover expert water infrastructure and pumping system design, built to optimize energy savings, reduce downtime, and maximize performance for any project size.",
           link: "/services/pumping-systems",
         },
+  {
+          title: "Wastewater Grinder and Sewage Pumps",
+          desc: "Keep your water flowing efficiently. Discover expert water infrastructure and pumping system design, built to optimize energy savings, reduce downtime, and maximize performance for any project size.",
+          link: "/services/pumping-systems",
+        },
         {
           title: "Utilities Infrastructure",
           desc: "Our team helps identify vulnerabilities, optimize performance and implement solutions to ensure reliable utilities infrastructure that supports operational continuity and guest satisfaction.",
@@ -288,6 +293,11 @@ export default function Home() {
           title: "Telecom and CCTV Networks",
           desc: "We support the assessment, installation, troubleshooting and optimization of telecommunications and surveillance systems, helping ensure dependable network performance and uninterrupted monitoring capabilities.",
           link: "/services/telecom-cctv-networks",
+        },
+  {
+          title: "HVAC Chillers Heaters and LP Gas",
+          desc: "Keep your water flowing efficiently. Discover expert water infrastructure and pumping system design, built to optimize energy savings, reduce downtime, and maximize performance for any project size.",
+          link: "/services/pumping-systems",
         },
         {
           title: "Energy Solutions",
