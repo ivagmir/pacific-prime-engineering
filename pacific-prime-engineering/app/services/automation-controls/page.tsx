@@ -8,12 +8,12 @@ import Image from "../../../next/image";
 import { trackEvent } from "../../lib/gtag";
 
 export const metadata = {
-  title: "Hospitality Engineering",
+  title: "Automation Controls Services in Guanacaste | Pacific Prime Engineering",
   description:
-    "Premium hospitality engineering services for luxury resorts, villas and hospitality infrastructure in Guanacaste, Costa Rica.",
+    "Premium automation controls services for luxury resorts, villas and hospitality infrastructure in Guanacaste, Costa Rica.",
 };
 
-export default function HospitalityEngineeringPage() {
+export default function AutomationControlsPage() {
   return (
     <main className="min-h-screen bg-[#071018] px-6 py-28 text-white">
 

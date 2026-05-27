@@ -2,18 +2,18 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
-import FadeIn from "./components/fade-in";
+import FadeIn from "../../components/fade-in";
 
-import Image from "next/image";
-import { trackEvent } from "./lib/gtag";
+import Image from "../../../next/image";
+import { trackEvent } from "../../lib/gtag";
 
 export const metadata = {
-  title: "Hospitality Engineering",
+  title: "Utilities & Infrastructure in Guanacaste | Pacific Prime Engineering",
   description:
-    "Premium hospitality engineering services for luxury resorts, villas and hospitality infrastructure in Guanacaste, Costa Rica.",
+    "Premium utilities and infrastructure solutions for luxury resorts, villas and hospitality infrastructure in Guanacaste, Costa Rica.",
 };
 
-export default function HospitalityEngineeringPage() {
+export default function UtilitiesInfrastructurePage() {
   return (
     <main className="min-h-screen bg-[#071018] px-6 py-28 text-white">
 
