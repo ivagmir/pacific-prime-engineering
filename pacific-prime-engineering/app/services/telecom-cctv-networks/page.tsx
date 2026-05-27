@@ -1,4 +1,4 @@
-/*"use client"*/
+"use client"
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -7,11 +7,7 @@ import FadeIn from "../../components/fade-in";
 import Image from "../../../next/image";
 import { trackEvent } from "../../lib/gtag";
 
-export const metadata = {
-  title: "Telecom & CCTV Networks in Guanacaste | Pacific Prime Engineering",
-  description:
-    "Premium telecom and CCTV network solutions for luxury resorts, villas and hospitality infrastructure in Guanacaste, Costa Rica.",
-};
+
 
 export default function TelecomCCTVNetworksPage() {
   return (

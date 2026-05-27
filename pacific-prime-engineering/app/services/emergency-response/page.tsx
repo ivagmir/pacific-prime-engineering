@@ -1,5 +1,5 @@
 
-/*"use client"*/
+"use client"
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -8,11 +8,6 @@ import FadeIn from "../../components/fade-in";
 import Image from "../../../next/image";
 import { trackEvent } from "../../lib/gtag";
 
-export const metadata = {
-  title: "Emergency Response",
-  description:
-    "24/7 emergency engineering response for critical infrastructure, hospitality and industrial facilities in Guanacaste, Costa Rica.",
-};
 
 export default function EmergencyResponsePage() {
   return (

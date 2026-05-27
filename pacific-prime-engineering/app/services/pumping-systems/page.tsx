@@ -1,4 +1,4 @@
-/*"use client"*/
+"use client"
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -8,11 +8,6 @@ import Image from "../../../next/image";
 import { trackEvent } from "../../lib/gtag";
 
 
-export const metadata = {
-  title: "Pumping Systems",
-  description:
-    "Premium pumping systems engineering, troubleshooting and operational continuity services in Guanacaste, Costa Rica.",
-};
 
 export default function PumpingSystemsPage() {
   return (
