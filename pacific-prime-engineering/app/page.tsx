@@ -311,7 +311,7 @@ export default function Home() {
           href={newserviceitem.link}
           ><div
           key={newserviceitem.title}
-          className="glass-card rounded-[1rem] p-4 transition hover:-translate-y-3 hover:shadow-2xl duration-300"
+          className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-3 hover:shadow-2xl duration-300"
         >
           <h3 className="mb-4 text-2xl font-semibold">
             {newserviceitem.title}
@@ -492,57 +492,6 @@ export default function Home() {
 </section>
 </FadeIn>
 
-  {/* SERVICES QUICK ACCESS */}
-<FadeIn>
-  <section className="bg-white/5 px-6 py-24">
-  <div className="mx-auto max-w-7xl">
-    <div className="mb-14 text-center">
-      <div className="mb-4 text-sm tracking-[0.3em] text-orange-300">
-        CORE SERVICES
-      </div>
-
-      <h2 className="section-title">
-        Engineering Services
-      </h2>
-    </div>
-
-    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-      {[
-        {
-          title: "Hospitality Engineering",
-          link: "/services/hospitality-engineering",
-        },
-        {
-          title: "Pumping Systems",
-          link: "/services/pumping-systems",
-        },
-        {
-          title: "Emergency Response",
-          link: "/services/emergency-response",
-        },
-        {
-          title: "Industrial Maintenance",
-          link: "/services/industrial-maintenance",
-        },
-      ].map((service) => (
-        <a
-          key={service.title}
-          href={service.link}
-          className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-2 hover:border-orange-400/30"
-        >
-          <div className="mb-4 text-sm tracking-[0.2em] text-orange-300">
-            SERVICE
-          </div>
-
-          <h3 className="text-2xl font-semibold">
-            {service.title}
-          </h3>
-        </a>
-      ))}
-    </div>
-  </div>
-</section>
-</FadeIn>
 
       
 {/* OPERATIONAL SCENARIOS */}
