@@ -309,10 +309,9 @@ export default function Home() {
         <a
           key={newserviceitem.title}
           href={newserviceitem.link}
-          className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-2 hover:border-orange-400/30"
-        ><div
+          ><div
           key={newserviceitem.title}
-          className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-3 hover:shadow-2xl duration-300"
+          className="glass-card rounded-[1rem] p-4 transition hover:-translate-y-3 hover:shadow-2xl duration-300"
         >
           <h3 className="mb-4 text-2xl font-semibold">
             {newserviceitem.title}
