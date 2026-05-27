@@ -305,14 +305,15 @@ export default function Home() {
           link: "/services/automation-controls",
         },
       ].map((newserviceitem) => (
-        <div
-          key={newserviceitem.title}
-          className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-3 hover:shadow-2xl duration-300"
-        ><a
+        
+        <a
           key={newserviceitem.title}
           href={newserviceitem.link}
           className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-2 hover:border-orange-400/30"
-        ></a>
+        ><div
+          key={newserviceitem.title}
+          className="glass-card rounded-[2rem] p-8 transition hover:-translate-y-3 hover:shadow-2xl duration-300"
+        >
           <h3 className="mb-4 text-2xl font-semibold">
             {newserviceitem.title}
           </h3>
@@ -320,7 +321,7 @@ export default function Home() {
           <p className="text-slate-300">
             {newserviceitem.desc}
           </p>
-        </div>
+        </div></a>
       ))}
     </div>
   </div>
