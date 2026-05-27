@@ -54,19 +54,19 @@ export default function Home() {
       >
         Home
       </a>
-
-      <a
-        href="#industries"
-        className="transition hover:text-orange-300"
-      >
-        Industries
-      </a>
-
+      
       <a
         href="/services/hospitality-engineering"
         className="transition hover:text-orange-300"
       >
         Hospitality
+      </a>
+      
+      <a
+        href="#industries"
+        className="transition hover:text-orange-300"
+      >
+        Industries
       </a>
 
       <a
@@ -275,14 +275,14 @@ export default function Home() {
           link: "/services/hospitality-engineering",
         },
         {
-          title: "Industrial Maintenance",
-          desc: "Our team supports preventive maintenance, mechanical and electrical troubleshooting, equipment reliability and thechnical interventios focused on keeping essential systems opetating efficiently.",
-          link: "/services/industrial-maintenance",
+          title: "Pools & Jacuzzi Systems,
+          desc: "We support assessment, troubleshooting, optimization and maintenance of pumps, filtration systems, circulation equipment, heating systems, automation controls and supporting infrastructure of aquatic systems.",
+          link: "/services/pools-jacuzzi-systems",
         },
         {
-          title: "Operational Continuity",
-          desc: "We identify opdrational risks, implement reliability solutions and provide rapid technical response to protect operational continuity for hospitality and critical infrastructure environments.",
-          link: "/services/operational-continuity",
+          title: "Building Maintenance & Repairs",
+          desc: "We support preventive maintenance. corrective reapairs and technical building services focused on preserving infraestructure performance to help properties maintain safe, functional and prefessionally maintained enviroments.",
+          link: "/services/building-maintenance-repairs",
         },
         {
           title: "Telecom and CCTV Networks",
@@ -303,6 +303,11 @@ export default function Home() {
           title: "Automation & Controls",
           desc: "From system controls and monitoring to process optimization and technical support, our engineering approach focuses on precision, efficiency and long-term operational resilience.",
           link: "/services/automation-controls",
+        },
+        {
+          title: "Industrial Maintenance",
+          desc: "Our team supports preventive maintenance, mechanical and electrical troubleshooting, equipment reliability and thechnical interventios focused on keeping essential systems opetating efficiently.",
+          link: "/services/industrial-maintenance",
         },
       ].map((newserviceitem) => (
         
@@ -333,7 +338,9 @@ export default function Home() {
     <div>24/7 TECHNICAL RESPONSE</div>
     <div>HOSPITALITY OPERATIONS</div>
     <div>PUMPING SYSTEMS</div>
+    <div>POOLS & JACUZZI SYSTEMS</div>
     <div>UTILITIES INFRASTRUCTURE</div>
+    <div>BUILDING MAINTENANCE & REPAIRS</div>
     <div>OPERATIONAL CONTINUITY</div>
     <div>TELECOM & CCTV NETWORKS</div>
     <div>ENERGY SOLUTIONS</div>
