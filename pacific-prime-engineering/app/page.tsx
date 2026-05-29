@@ -208,8 +208,8 @@ export default function Home() {
     </h2>
 
     <p className="mx-auto mb-12 max-w-3xl text-lg text-slate-200 md:text-xl">
-      Operational continuity, utilities engineering, 
-      Mechanical Electrical and Plumbing (MEP) support, energy solutions,
+      Operational continuity, utilities engineering, pools and jacuzzis, HVAC Chillers and Heaters, 
+      Mechanical Electrical and Plumbing (MEP) support, energy and power solutions,
       telecommunications and premium technical response
       for luxury hospitality and critical infrastructure
       across Guanacaste and Costa Rica.
