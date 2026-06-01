@@ -174,11 +174,18 @@ export default function BuildingMaintenanceRepairsPage() {
         </h1>
 
         <p className="mb-12 text-xl leading-8 text-slate-300">
-          Pacific Prime Engineering provides premium
-          building maintenance and repairs services for luxury
-          resorts, villas, hospitality properties and
-          mission-critical operations across Guanacaste
-          and Papagayo.
+          We support preventive maintenance, corrective repairs and technical building 
+          services focused on preserving infrastructure performance, aesthetics and 
+          operational reliability. From mechanical and structural repairs to 
+          facility upkeep and technical troubleshooting, our team delivers responsive 
+          solutions aligned with premium hospitality standards.
+        </p>
+        <p className="mb-12 text-xl leading-8 text-slate-300">
+          Our approach prioritizes reliability, rapid response and quality execution
+           to help properties maintain safe, functional and professionally maintained
+            environments where operational excellence matters. Whether supporting ongoing maintenance
+             programs or urgent repair requirements, Pacific Prime Engineering delivers
+              premium building maintenance solutions tailored to high-demand environments.
         </p>
 
         <div className="glass-card rounded-[2rem] p-10">
@@ -187,12 +194,12 @@ export default function BuildingMaintenanceRepairsPage() {
           </h2>
 
           <ul className="space-y-4 text-slate-300">
-            <li>• Preventive building repairs</li>
-            <li>• Corrective </li>
-            <li>• Mechanical troubleshooting</li>
+            <li>• Corrective repairs & troubleshooting</li>
+            <li>• Facility upkeep & infrastructure support </li>
+            <li>• Structural & technical repairs</li>
             <li>• Reliability engineering</li>
-            <li>• Preventive maintenance planning</li>
-            <li>• Emergency technical response</li>
+            <li>• Hospitality property maintenance</li>
+            <li>• Emergency repair response</li>
           </ul>
         </div>
 
