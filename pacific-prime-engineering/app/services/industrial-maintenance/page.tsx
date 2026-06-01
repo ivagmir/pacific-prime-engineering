@@ -178,11 +178,11 @@ export default function IndustrialMaintenancePage() {
         </h1>
 
         <p className="mb-12 text-xl leading-8 text-slate-300">
-          Pacific Prime Engineering delivers industrial
-          maintenance, utilities support and operational
-          continuity services for hospitality, villas,
-          industrial facilities and mission-critical
-          infrastructure throughout Guanacaste.
+          Reliable industrial maintenance is essential to protect operational continuity,
+          system performance and infrastructure longevity in high-demand environments. 
+          Pacific Prime Engineering provides premium industrial maintenance services 
+          designed to minimize downtime, improve reliability and support mission-critical 
+          operations across hospitality, utilities and industrial facilities in Papagayo and Guanacaste.
         </p>
 
         <div className="glass-card rounded-[2rem] p-10">
@@ -191,11 +191,11 @@ export default function IndustrialMaintenancePage() {
           </h2>
 
           <ul className="space-y-4 text-slate-300">
-            <li>• Preventive maintenance planning</li>
-            <li>• Utilities reliability</li>
+            <li>• Preventive maintenance programs</li>
             <li>• Mechanical troubleshooting</li>
+            <li>• Equipment reliability support</li>
             <li>• Technical emergency response</li>
-            <li>• Infrastructure continuity</li>
+            <li>• System performance optimization</li>
             <li>• Operational support systems</li>
           </ul>
         </div>

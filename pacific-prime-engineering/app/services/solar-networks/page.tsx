@@ -175,11 +175,12 @@ export default function SolarNetworksPage() {
         </h1>
 
         <p className="mb-12 text-xl leading-8 text-slate-300">
-          Pacific Prime Engineering provides premium
-          solar networks engineering services for luxury
-          resorts, villas, hospitality properties and
-          mission-critical operations across Guanacaste
-          and Papagayo.
+          Reliable solar energy infrastructure plays an increasingly important role in 
+          improving operational resilience, energy efficiency and long-term sustainability
+           in hospitality and mission-critical environments. 
+           Pacific Prime Engineering provides premium solar network services designed
+            to support reliable energy performance, infrastructure optimization and operational
+             continuity across luxury resorts, villas and high-demand facilities in Guanacaste and Papagayo.
         </p>
 
         <div className="glass-card rounded-[2rem] p-10">
@@ -188,11 +189,13 @@ export default function SolarNetworksPage() {
           </h2>
 
           <ul className="space-y-4 text-slate-300">
-            <li>• Utilities infrastructure support</li>
-            <li>• Pumping system optimization</li>
-            <li>• Mechanical troubleshooting</li>
-            <li>• Reliability engineering</li>
+            <li>• Solar infrastructure assessments</li>
+            <li>• Solar network optimization</li>
+            <li>• Energy reliability support</li>
+            <li>• System performance evaluations</li>
+            <li>• Backup energy integration support</li>
             <li>• Preventive maintenance planning</li>
+            <li>• Operational resilience strategies</li>
             <li>• Emergency technical response</li>
           </ul>
         </div>

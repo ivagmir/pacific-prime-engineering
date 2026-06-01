@@ -9,7 +9,7 @@ import { trackEvent } from "../../lib/gtag";
 
 
 
-export default function TelecomCCTVNetworksPage() {
+export default function HvacchillersheaterslpgasPage() {
   const [menuOpen, setMenuOpen] =
   useState(false);
   const services = [
@@ -163,32 +163,24 @@ export default function TelecomCCTVNetworksPage() {
 </header>
 <FadeIn>
   <section
-  id="telecom-cctv-networks"
+  id="hvac-chillers-heaters-lpgas"
   className="bg-white/5 px-6 py-28">
       <div className="mx-auto max-w-5xl">
         <div className="mb-6 text-sm tracking-[0.3em] text-orange-300">
-          TELECOM AND CCTV NETWORKS ENGINEERING
+          HVAC CHILLERS HEATERS LPGAS ENGINEERING
 
         </div>
 
         <h1 className="mb-8 text-5xl font-bold">
-          Telecom and CCTV Networks Engineering in Guanacaste
+          HVAC, Chillers, Heaters and LPGas Engineering in Guanacaste
         </h1>
 
         <p className="mb-12 text-xl leading-8 text-slate-300">
-          Reliable communication and security infrastructure are essential for maintaining operational continuity,
-          guest safety and real-time visibility in hospitality and mission-critical environments.
-          Pacific Prime Engineering provides premium telecom and CCTV network services designed 
-          to support seamless connectivity, surveillance reliability and infrastructure performance
-           across luxury resorts, villas and operational facilities in Guanacaste and Papagayo.
-        </p>
-        
-        <p className="mb-12 text-xl leading-8 text-slate-300">      
-          We support the assessment, installation, troubleshooting and optimization of telecommunications
-           and surveillance systems, helping ensure dependable network performance and uninterrupted 
-           monitoring capabilities. From structured connectivity solutions to CCTV reliability and 
-           technical support, our engineering approach is focused on operational efficiency, 
-           responsiveness and long-term system reliability.
+          Pacific Prime Engineering provides premium
+          hvac, chillers, heaters and lpgas engineering services for luxury
+          resorts, villas, hospitality properties and
+          mission-critical operations across Guanacaste
+          and Papagayo.
         </p>
 
         <div className="glass-card rounded-[2rem] p-10">
@@ -197,14 +189,11 @@ export default function TelecomCCTVNetworksPage() {
           </h2>
 
           <ul className="space-y-4 text-slate-300">
-            <li>• CCTV systems support & troubleshooting</li>
-            <li>• Telecom infrastructure assessments</li>
-            <li>• Network reliability optimization</li>
-            <li>• Surveillance system maintenance</li>
-            <li>• Structured cabling support</li>
-            <li>• Connectivity troubleshooting</li>
-            <li>• Technical response for critical systems</li>
-            <li>• Operational security infrastructure support</li>
+            <li>• Utilities infrastructure support</li>
+            <li>• Pumping system optimization</li>
+            <li>• Mechanical troubleshooting</li>
+            <li>• Reliability engineering</li>
+            <li>• Preventive maintenance planning</li>
             <li>• Emergency technical response</li>
           </ul>
         </div>

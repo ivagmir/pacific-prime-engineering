@@ -262,12 +262,12 @@ export default function Home() {
         {
           title: "Water & Pumping Systems",
           desc: "Keep your water flowing efficiently. Discover expert water infrastructure and pumping system design, built to optimize energy savings, reduce downtime, and maximize performance for any project size.",
-          link: "/services/pumping-systems",
+          link: "/services/water-pumping-systems",
         },
   {
           title: "Wastewater Grinder and Sewage Pumps",
           desc: "Keep your water flowing efficiently. Discover expert water infrastructure and pumping system design, built to optimize energy savings, reduce downtime, and maximize performance for any project size.",
-          link: "/services/pumping-systems",
+          link: "/services/wastewater-grinder-sewage",
         },
         {
           title: "Utilities Infrastructure",
@@ -297,7 +297,7 @@ export default function Home() {
   {
           title: "HVAC Chillers Heaters and LP Gas",
           desc: "Keep your water flowing efficiently. Discover expert water infrastructure and pumping system design, built to optimize energy savings, reduce downtime, and maximize performance for any project size.",
-          link: "/services/pumping-systems",
+          link: "/services/hvac-chillers-heaters-lpgas",
         },
         {
           title: "Energy Solutions",

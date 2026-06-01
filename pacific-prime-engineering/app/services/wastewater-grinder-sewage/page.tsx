@@ -9,8 +9,8 @@ import { trackEvent } from "../../lib/gtag";
 
 
 
-export default function TelecomCCTVNetworksPage() {
-  const [menuOpen, setMenuOpen] =
+export default function WastewaterGrinderSewagePage() {
+ const [menuOpen, setMenuOpen] =
   useState(false);
   const services = [
     "Water & Pumping Systems",
@@ -35,7 +35,7 @@ export default function TelecomCCTVNetworksPage() {
   return (
     <main className="min-h-screen bg-[#071018] px-6 py-28 text-white">
 
-    {/* NAVBAR */}
+{/* NAVBAR */}
    
 <header className="fixed top-0 z-50 w-full border-b border-white/10 bg-[#071018]/90 backdrop-blur-xl">
   <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
@@ -161,51 +161,40 @@ export default function TelecomCCTVNetworksPage() {
     </div>
   )}
 </header>
+
 <FadeIn>
-  <section
-  id="telecom-cctv-networks"
-  className="bg-white/5 px-6 py-28">
+      <section
+      id="wastewater-grinder-sewage"
+      className="bg-white/5 px-6 py-28">      
       <div className="mx-auto max-w-5xl">
         <div className="mb-6 text-sm tracking-[0.3em] text-orange-300">
-          TELECOM AND CCTV NETWORKS ENGINEERING
-
+          WASTEWATER GRINDER AND SEWAGE ENGINEERING
         </div>
 
         <h1 className="mb-8 text-5xl font-bold">
-          Telecom and CCTV Networks Engineering in Guanacaste
+          Wastewater Grinder and Sewage Services in Guanacaste
         </h1>
 
         <p className="mb-12 text-xl leading-8 text-slate-300">
-          Reliable communication and security infrastructure are essential for maintaining operational continuity,
-          guest safety and real-time visibility in hospitality and mission-critical environments.
-          Pacific Prime Engineering provides premium telecom and CCTV network services designed 
-          to support seamless connectivity, surveillance reliability and infrastructure performance
-           across luxury resorts, villas and operational facilities in Guanacaste and Papagayo.
-        </p>
-        
-        <p className="mb-12 text-xl leading-8 text-slate-300">      
-          We support the assessment, installation, troubleshooting and optimization of telecommunications
-           and surveillance systems, helping ensure dependable network performance and uninterrupted 
-           monitoring capabilities. From structured connectivity solutions to CCTV reliability and 
-           technical support, our engineering approach is focused on operational efficiency, 
-           responsiveness and long-term system reliability.
+          Pacific Prime Engineering provides premium pumping
+          systems engineering, troubleshooting and reliability
+          support for luxury resorts, villas, hospitality
+          operations and industrial facilities across
+          Guanacaste and Papagayo.
         </p>
 
         <div className="glass-card rounded-[2rem] p-10">
           <h2 className="mb-6 text-3xl font-semibold">
-            Services Include
+            Wastewater Services Include
           </h2>
 
           <ul className="space-y-4 text-slate-300">
-            <li>• CCTV systems support & troubleshooting</li>
-            <li>• Telecom infrastructure assessments</li>
-            <li>• Network reliability optimization</li>
-            <li>• Surveillance system maintenance</li>
-            <li>• Structured cabling support</li>
-            <li>• Connectivity troubleshooting</li>
-            <li>• Technical response for critical systems</li>
-            <li>• Operational security infrastructure support</li>
-            <li>• Emergency technical response</li>
+            <li>• Wastewater grinder maintenance</li>
+            <li>• Sewage system optimization</li>
+            <li>• Pressure system reliability</li>
+            <li>• Emergency pumping failures</li>
+            <li>• Water distribution systems</li>
+            <li>• Preventive maintenance planning</li>
           </ul>
         </div>
 
@@ -218,10 +207,9 @@ export default function TelecomCCTVNetworksPage() {
           </a>
         </div>
       </div>
-    </section>
+</section>
 </FadeIn>
-
-     
+          
 {/* CONTACT */}
 <FadeIn>
   <section
