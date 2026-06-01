@@ -161,23 +161,25 @@ export default function AutomationControlsPage() {
 </header>
 <FadeIn>
   <section
-  id="luxury-hospitality-engineering"
+  id="automation-controls-systems-integration"
   className="bg-white/5 px-6 py-28">
       <div className="mx-auto max-w-5xl">
         <div className="mb-6 text-sm tracking-[0.3em] text-orange-300">
-          LUXURY HOSPITALITY ENGINEERING
+          AUTOMATION CONTROLS AND SYSTEMS INTEGRATION
         </div>
 
         <h1 className="mb-8 text-5xl font-bold">
-          Hospitality Engineering Services in Guanacaste
+          Automation Controls and Systems Integration in Guanacaste
         </h1>
 
         <p className="mb-12 text-xl leading-8 text-slate-300">
-          Pacific Prime Engineering provides premium
-          hospitality engineering services for luxury
-          resorts, villas, hospitality properties and
-          mission-critical operations across Guanacaste
-          and Papagayo.
+          Advanced automation and control systems are essential for improving operational efficiency, 
+          system reliability and performance consistency in hospitality, 
+          utilities and mission-critical environments. 
+          Pacific Prime Engineering provides premium automation and controls 
+          services designed to optimize infrastructure performance, 
+          enhance operational visibility and support uninterrupted operations across luxury resorts,
+           villas and industrial facilities in Guanacaste and Papagayo.
         </p>
 
         <div className="glass-card rounded-[2rem] p-10">
@@ -186,11 +188,12 @@ export default function AutomationControlsPage() {
           </h2>
 
           <ul className="space-y-4 text-slate-300">
-            <li>• Utilities infrastructure support</li>
-            <li>• Pumping system optimization</li>
-            <li>• Mechanical troubleshooting</li>
-            <li>• Reliability engineering</li>
-            <li>• Preventive maintenance planning</li>
+            <li>• Control systems troubleshooting</li>
+            <li>• Process optimization</li>
+            <li>• Infrastructure monitoring solutions</li>
+            <li>• Technical diagnostics & reliability support</li>
+            <li>• Operational efficiency enhancement</li>
+            <li>• Preventive maintenance strategies</li>
             <li>• Emergency technical response</li>
           </ul>
         </div>

@@ -163,20 +163,21 @@ export default function TelecomCCTVNetworksPage() {
 </header>
 <FadeIn>
   <section
-  id="luxury-hospitality-engineering"
+  id="telecom-cctv-networks"
   className="bg-white/5 px-6 py-28">
       <div className="mx-auto max-w-5xl">
         <div className="mb-6 text-sm tracking-[0.3em] text-orange-300">
-          LUXURY HOSPITALITY ENGINEERING
+          TELECOM AND CCTV NETWORKS ENGINEERING
+
         </div>
 
         <h1 className="mb-8 text-5xl font-bold">
-          Hospitality Engineering Services in Guanacaste
+          Telecom and CCTV Networks Engineering in Guanacaste
         </h1>
 
         <p className="mb-12 text-xl leading-8 text-slate-300">
           Pacific Prime Engineering provides premium
-          hospitality engineering services for luxury
+          telecom and CCTV networks engineering services for luxury
           resorts, villas, hospitality properties and
           mission-critical operations across Guanacaste
           and Papagayo.
