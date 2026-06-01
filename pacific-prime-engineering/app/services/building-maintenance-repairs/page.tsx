@@ -71,7 +71,7 @@ export default function BuildingMaintenanceRepairsPage() {
       </a>
 
       <a
-        href="#newservices"
+        href="/#newservices"
         className="transition hover:text-orange-300"
       >
         Services
