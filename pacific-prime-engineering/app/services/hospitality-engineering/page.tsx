@@ -64,14 +64,14 @@ const [menuOpen, setMenuOpen] =
       </a>
       
       <a
-        href="#industries"
+        href="/#industries"
         className="transition hover:text-orange-300"
       >
         Industries
       </a>
 
       <a
-        href="#newservices"
+        href="/#newservices"
         className="transition hover:text-orange-300"
       >
         Services
@@ -105,7 +105,7 @@ const [menuOpen, setMenuOpen] =
         </span>
 
         <a
-          href="/es"
+          href="/"
           className="transition hover:text-orange-300"
         >
           ES
@@ -130,12 +130,11 @@ const [menuOpen, setMenuOpen] =
         <a href="/services/hospitality-engineering">
           Hospitality
         </a>
-        <a href="#industries">Industries</a>
-        <a href="/services/pumping-systems">
-          Pumping Systems
+        <a href="/#newservices">
+          Services
         </a>
-        <a href="/">
-          Critical Infrastructure
+        <a href="/services/building-maintenance-repairs">
+        Building Maintenance
         </a>
         <a href="/services/emergency-response">
           Emergency
