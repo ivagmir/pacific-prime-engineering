@@ -173,11 +173,20 @@ export default function EnergySolutionsPage() {
         </h1>
 
         <p className="mb-12 text-xl leading-8 text-slate-300">
-          Pacific Prime Engineering provides premium
-          energy and power solutions for luxury
-          resorts, villas, hospitality properties and
-          mission-critical operations across Guanacaste
-          and Papagayo.
+          Energy efficiency and power reliability are essential to maintaining exceptional 
+          guest experiences and uninterrupted operations in hospitality environments. 
+          Pacific Prime Engineering provides specialized energy solutions for hospitality 
+          engineering, helping resorts, hotels, luxury villas and hospitality facilities 
+          optimize energy performance, reduce operational costs and strengthen infrastructure 
+          resilience across Guanacaste and Papagayo.
+        </p>
+
+        <p className="mb-12 text-xl leading-8 text-slate-300">
+          Our team supports the assessment, optimization and implementation of energy-focused 
+          strategies tailored to the unique demands of hospitality operations. From power 
+          distribution and backup systems to energy efficiency initiatives and infrastructure 
+          performance evaluations, we help properties improve reliability while supporting long-term 
+          sustainability goals.
         </p>
 
         <div className="glass-card rounded-[2rem] p-10">
@@ -186,11 +195,12 @@ export default function EnergySolutionsPage() {
           </h2>
 
           <ul className="space-y-4 text-slate-300">
-            <li>• Utilities infrastructure support</li>
-            <li>• Pumping system optimization</li>
-            <li>• Mechanical troubleshooting</li>
-            <li>• Reliability engineering</li>
-            <li>• Preventive maintenance planning</li>
+            <li>• Hospitality energy efficiency assessments</li>
+            <li>• Power reliability and resilience planning</li>
+            <li>• Backup power system support</li>
+            <li>• Energy consumption optimization</li>
+            <li>• Infrastructure performance improvements</li>
+            <li>• Power Generators Maintenance and Support</li>
             <li>• Emergency technical response</li>
           </ul>
         </div>
@@ -228,148 +238,150 @@ infrastructure.
       </p>
     </div>
 
-    <form
-      action="https://formsubmit.co/operations@pacificprimeengineering.com"
-      method="POST"
-      onSubmit={() =>
-        trackEvent("lead_form_submit",{
-          source: "website_contact",
-        })
-      }
-      className="glass-card rounded-[2rem] p-10"
-    >
-      {/* Hidden FormSubmit Config */}
-      <input
-        type="hidden"
-        name="_subject"
-        value="New Pacific Prime Engineering Lead"
-      />
-
-      <input
-        type="hidden"
-        name="_captcha"
-        value="false"
-      />
-
-      <input
-        type="hidden"
-        name="_template" 
-        value="table"
-      />
-      <input
-        type="hidden"
-        name="_next"
-        value="https://pacificprimeengineering.com/thank-you"
-      />
-
-      <div className="grid gap-6 md:grid-cols-2">
-        <input
-          type="text"
-          name="company"
-          placeholder="Company / Property"
-          required
-          className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none placeholder:text-slate-500"
-        />
-
-        <input
-          type="text"
-          name="contact_name"
-          placeholder="Contact Name"
-          required
-          className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none placeholder:text-slate-500"
-        />
-
-        <select
-          name="service_type"
-          className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none"
-        >
-          <option>Service Type</option>
-          <option>Water & Pumping Systems</option>
-          <option>Utilities Infrastructure</option>
-          <option>Hospitality Engineering</option>
-          <option>Industrial Maintenance</option>
-          <option>Emergency Response</option>
-        </select>
-
-        <select
-          name="urgency"
-          className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none"
-        >
-          <option>Urgency</option>
-          <option>Routine</option>
-          <option>Priority</option>
-          <option>Emergency 24/7</option>
-        </select>
-
-        <input
-          type="tel"
-          name="phone"
-          placeholder="Phone"
-          required
-          className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none placeholder:text-slate-500"
-        />
-
-        <input
-          type="email"
-          name="email"
-          placeholder="Email"
-          required
-          className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none placeholder:text-slate-500"
-        />
-      </div>
-
-<div>
-  <label className="mb-2 block text-sm text-slate-300">
-    Service Needed
-  </label>
-
-  <select
-    name="service"
-    className="w-full rounded-2xl border border-white/10 bg-white/5 p-4 text-white outline-none"
-    defaultValue=""
-  >
-    <option value="" disabled>
-      Select Service
-    </option>
-
-    <option>
-      Hospitality Engineering
-    </option>
-
-    <option>
-      Pumping Systems
-    </option>
-
-    <option>
-      Emergency Response
-    </option>
-
-    <option>
-      Industrial Maintenance
-    </option>
-
-    <option>
-      Utilities Infrastructure
-    </option>
-  </select>
-</div>
-      
-      <textarea
-        name="project_details"
-        placeholder="Project Details"
-        rows={6}
-        className="mt-6 w-full rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none placeholder:text-slate-500"
-      />
-<div className="rounded-2xl border border-orange-500/20 bg-orange-500/10 p-4 text-sm text-orange-200">
-  Priority response available for operational-critical situations.
-</div>
-      <button
-        type="submit"
-        className="orange-glow mt-8 w-full rounded-full bg-orange-500 px-8 py-5 text-lg font-semibold transition hover:bg-orange-400"
+    <div className="mx-auto max-w-2xl">
+      <form
+        action="https://formsubmit.co/operations@pacificprimeengineering.com"
+        method="POST"
+        onSubmit={() =>
+          trackEvent("lead_form_submit",{
+            source: "website_contact",
+          })
+        }
+        className="glass-card rounded-[2rem] p-4"
       >
-        Request Complimentary Assessment
-      </button>
-    </form>
+        {/* Hidden FormSubmit Config */}
+        <input
+          type="hidden"
+          name="_subject"
+          value="New Pacific Prime Engineering Lead"
+        />
+
+        <input
+          type="hidden"
+          name="_captcha"
+          value="false"
+        />
+
+        <input
+          type="hidden"
+          name="_template" 
+          value="table"
+        />
+        <input
+          type="hidden"
+          name="_next"
+          value="https://pacificprimeengineering.com/thank-you"
+        />
+
+        <div className="grid gap-6 md:grid-cols-2">
+          <input
+            type="text"
+            name="company"
+            placeholder="Company / Property"
+            required
+            className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none placeholder:text-slate-500"
+          />
+
+          <input
+            type="text"
+            name="contact_name"
+            placeholder="Contact Name"
+            required
+            className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none placeholder:text-slate-500"
+          />
+
+          <select
+            name="service_type"
+            className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none"
+          >
+            <option>Service Type</option>
+            <option>Water & Pumping Systems</option>
+            <option>Utilities Infrastructure</option>
+            <option>Hospitality Engineering</option>
+            <option>Industrial Maintenance</option>
+            <option>Emergency Response</option>
+          </select>
+
+          <select
+            name="urgency"
+            className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none"
+          >
+            <option>Urgency</option>
+            <option>Routine</option>
+            <option>Priority</option>
+            <option>Emergency 24/7</option>
+          </select>
+
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Phone"
+            required
+            className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none placeholder:text-slate-500"
+          />
+
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            required
+            className="rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none placeholder:text-slate-500"
+          />
+        </div>
+
+  <div>
+    <label className="mb-2 block text-sm text-slate-300">
+      Service Needed
+    </label>
+
+    <select
+      name="service"
+      className="w-full rounded-2xl border border-white/10 bg-white/5 p-4 text-white outline-none"
+      defaultValue=""
+    >
+      <option value="" disabled>
+        Select Service
+      </option>
+
+      <option>
+        Hospitality Engineering
+      </option>
+
+      <option>
+        Pumping Systems
+      </option>
+
+      <option>
+        Emergency Response
+      </option>
+
+      <option>
+        Industrial Maintenance
+      </option>
+
+      <option>
+        Utilities Infrastructure
+      </option>
+    </select>
+  </div>
+        
+        <textarea
+          name="project_details"
+          placeholder="Project Details"
+          rows={6}
+          className="mt-6 w-full rounded-xl border border-white/10 bg-white/10 p-4 text-white outline-none placeholder:text-slate-500"
+        />
+  <div className="rounded-2xl border border-orange-500/20 bg-orange-500/10 p-4 text-sm text-orange-200">
+    Priority response available for operational-critical situations.
+  </div>
+        <button
+          type="submit"
+          className="orange-glow mt-8 w-full rounded-full bg-orange-500 px-8 py-5 text-lg font-semibold transition hover:bg-orange-400"
+        >
+          Request Complimentary Assessment
+        </button>
+      </form>
+    </div>
   </div>
 </section>
 </FadeIn>
