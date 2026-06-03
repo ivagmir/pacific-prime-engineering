@@ -166,19 +166,28 @@ export default function UtilitiesInfrastructurePage() {
   className="bg-white/5 px-6 py-28">
       <div className="mx-auto max-w-5xl">
         <div className="mb-6 text-sm tracking-[0.3em] text-orange-300">
-          UTILITIES INFRASTRUCTURE ENGINEERING
+          CIVIL INFRASTRUCTURE ENGINEERING SERVICES
         </div>
 
         <h1 className="mb-8 text-5xl font-bold">
-          Utilities Infrastructure Engineering in Guanacaste
+          Civil Infrastructure Engineering in Guanacaste
         </h1>
 
         <p className="mb-12 text-xl leading-8 text-slate-300">
-          Pacific Prime Engineering provides premium
-          utilities infrastructure engineering services for luxury
-          resorts, villas, hospitality properties and
-          mission-critical operations across Guanacaste
-          and Papagayo.
+          Our team supports the assessment, planning, optimization and maintenance of critical civil 
+          infrastructure, including roads, drainage systems, retaining structures, utility corridors, 
+          stormwater management systems, site improvements and supporting infrastructure. 
+          We help hospitality properties protect assets, improve operational efficiency and 
+          reduce infrastructure-related risks while maintaining the highest standards of safety 
+          and guest experience.
+        </p>
+
+        <p className="mb-12 text-xl leading-8 text-slate-300">
+          By combining engineering expertise with a practical understanding of hospitality operations, 
+           we deliver solutions that enhance infrastructure resilience, support sustainable development 
+           and ensure long-term operational reliability. Whether addressing existing infrastructure challenges, 
+           planning property improvements or supporting expansion projects, Pacific Prime Engineering 
+           provides professional civil engineering services aligned with premium hospitality standards.
         </p>
 
         <div className="glass-card rounded-[2rem] p-10">
@@ -187,11 +196,15 @@ export default function UtilitiesInfrastructurePage() {
           </h2>
 
           <ul className="space-y-4 text-slate-300">
-            <li>• Utilities infrastructure support</li>
-            <li>• Pumping system optimization</li>
-            <li>• Mechanical troubleshooting</li>
-            <li>• Reliability engineering</li>
-            <li>• Preventive maintenance planning</li>
+            <li>• Civil infrastructure assessments</li>
+            <li>• Site development support</li>
+            <li>• Drainage and stormwater management systems</li>
+            <li>• Roads, pathways and access infrastructure</li>
+            <li>• Retaining walls and structural site elements</li>
+            <li>• Utility corridor planning and coordination</li>
+            <li>• Infrastructure rehabilitation and upgrades</li>
+            <li>• Erosion control and site protection solutions</li>
+            <li>• Preventive infrastructure maintenance</li>
             <li>• Emergency technical response</li>
           </ul>
         </div>

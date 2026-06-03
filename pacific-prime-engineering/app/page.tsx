@@ -269,9 +269,9 @@ export default function Home() {
           link: "/services/wastewater-grinder-sewage",
         },
         {
-          title: "Utilities Infrastructure",
-          desc: "Our team helps identify vulnerabilities, optimize performance and implement solutions to ensure reliable utilities infrastructure that supports operational continuity and guest satisfaction.",
-          link: "/services/utilities-infrastructure",
+          title: "Civil Infrastructure Engineering",
+          desc: "Our team supports the assessment, planning, optimization and maintenance of critical civil infrastructure, including roads, drainage systems, retaining structures, utility corridors and other essential elements.",
+          link: "/services/civil-infrastructure-engineering",
         },
         {
           title: "Hospitality Engineering",
