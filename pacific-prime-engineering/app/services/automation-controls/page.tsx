@@ -238,7 +238,7 @@ infrastructure.
           source: "website_contact",
         })
       }
-      className="glass-card rounded-[2rem] p-10"
+      className="glass-card rounded-[2rem] p-8"
     >
       {/* Hidden FormSubmit Config */}
       <input
