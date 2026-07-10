@@ -174,12 +174,19 @@ export default function SolarNetworksPage() {
         </h1>
 
         <p className="mb-12 text-xl leading-8 text-slate-300">
-          Reliable solar energy infrastructure plays an increasingly important role in 
-          improving operational resilience, energy efficiency and long-term sustainability
-           in hospitality and mission-critical environments. 
-           Pacific Prime Engineering provides premium solar network services designed
-            to support reliable energy performance, infrastructure optimization and operational
-             continuity across luxury resorts, villas and high-demand facilities in Guanacaste and Papagayo.
+        Our engineering team specializes in the assessment, design support, installation management, 
+        optimization and maintenance of solar photovoltaic (PV) systems and integrated energy networks. 
+        We develop customized solar solutions that maximize energy production while ensuring seamless 
+        integration with existing electrical infrastructure, backup power systems and smart energy 
+        management technologies.
+        </p>
+
+        <p className="mb-12 text-xl leading-8 text-slate-300">
+        Whether you are planning a new solar installation, expanding an existing system or optimizing 
+        overall energy performance, Pacific Prime Engineering delivers comprehensive engineering 
+        services focused on operational reliability, return on investment and long-term asset performance. 
+        Our solutions are engineered to withstand the demanding environmental conditions of Costa Rica 
+        while supporting the continuous operation of hospitality properties and mission-critical facilities.
         </p>
 
         <div className="glass-card rounded-[2rem] p-10">
@@ -188,6 +195,13 @@ export default function SolarNetworksPage() {
           </h2>
 
           <ul className="space-y-4 text-slate-300">
+            <li>• Solar photovoltaic (PV) system engineering</li>
+            <li>• Solar energy system design support</li>
+            <li>• Battery energy storage system (BESS) integration</li>
+            <li>• Energy monitoring and performance analytics</li>
+            <li>• Inverter selection and optimization</li>
+            <li>• Preventive maintenance and system inspections</li>
+            <li>• Grid-tied and off-grid solar solutions</li>
             <li>• Solar infrastructure assessments</li>
             <li>• Solar network optimization</li>
             <li>• Energy reliability support</li>
