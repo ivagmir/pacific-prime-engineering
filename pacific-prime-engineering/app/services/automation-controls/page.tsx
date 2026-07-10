@@ -172,13 +172,28 @@ export default function AutomationControlsPage() {
         </h1>
 
         <p className="mb-12 text-xl leading-8 text-slate-300">
-          Advanced automation and control systems are essential for improving operational efficiency, 
-          system reliability and performance consistency in hospitality, 
-          utilities and mission-critical environments. 
-          Pacific Prime Engineering provides premium automation and controls 
-          services designed to optimize infrastructure performance, 
-          enhance operational visibility and support uninterrupted operations across luxury resorts,
-           villas and industrial facilities in Guanacaste and Papagayo.
+          Modern facilities depend on intelligent automation and seamless system integration to achieve 
+          operational efficiency, reliability and exceptional performance. Pacific Prime Engineering 
+          provides specialized Automation, Controls & Systems Integration services for resorts, hotels, 
+          luxury villas, commercial facilities and industrial infrastructure throughout Guanacaste, 
+          delivering smart engineering solutions that optimize building operations and enhance asset 
+          performance.
+        </p>
+
+        <p className="mb-12 text-xl leading-8 text-slate-300">
+          Our engineering team specializes in the design support, programming, integration, commissioning 
+          and optimization of automation systems that connect critical building infrastructure into a 
+          unified, intelligent platform. We integrate HVAC systems, pumping equipment, water and 
+          wastewater systems, electrical infrastructure, lighting, energy management, access control, 
+          security systems and other operational technologies to improve efficiency, visibility and 
+          control.        </p>
+
+        <p className="mb-12 text-xl leading-8 text-slate-300">
+          Whether implementing a new Building Management System (BMS), upgrading existing control systems 
+          or integrating multiple technologies into a centralized platform, Pacific Prime Engineering 
+          delivers scalable and reliable automation solutions tailored to each client's operational 
+          requirements. Our engineering approach focuses on improving system performance, reducing energy 
+          consumption, simplifying maintenance and ensuring long-term operational continuity.
         </p>
 
         <div className="glass-card rounded-[2rem] p-10">
@@ -188,7 +203,24 @@ export default function AutomationControlsPage() {
 
           <ul className="space-y-4 text-slate-300">
             <li>• Control systems troubleshooting</li>
-            <li>• Process optimization</li>
+            <li>• Building Management System (BMS) engineering</li>
+            <li>• PLC programming and industrial automation</li>
+            <li>• SCADA system integration</li>
+            <li>• HVAC automation and controls</li>
+            <li>• Pumping system automation</li>
+            <li>• Water and wastewater process controls</li>
+            <li>• Energy management systems</li>
+            <li>• Electrical monitoring and power management</li>
+            <li>• Lighting control systems</li>
+            <li>• Variable Frequency Drive (VFD) integration</li>
+            <li>• Instrumentation and field device integration</li>
+            <li>• Networked control systems</li>
+            <li>• Remote monitoring and diagnostics</li>
+            <li>• System commissioning and performance testing</li>
+            <li>• Preventive maintenance and troubleshooting</li>
+            <li>• Control panel design and upgrades</li>
+            <li>• Smart building technologies</li>
+            <li>• IoT-enabled monitoring solutions</li>
             <li>• Infrastructure monitoring solutions</li>
             <li>• Technical diagnostics & reliability support</li>
             <li>• Operational efficiency enhancement</li>
