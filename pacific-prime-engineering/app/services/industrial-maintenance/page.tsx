@@ -177,11 +177,19 @@ export default function IndustrialMaintenancePage() {
         </h1>
 
         <p className="mb-12 text-xl leading-8 text-slate-300">
-          Reliable industrial maintenance is essential to protect operational continuity,
-          system performance and infrastructure longevity in high-demand environments. 
-          Pacific Prime Engineering provides premium industrial maintenance services 
-          designed to minimize downtime, improve reliability and support mission-critical 
-          operations across hospitality, utilities and industrial facilities in Papagayo and Guanacaste.
+          Our multidisciplinary engineering team specializes in preventive, predictive and corrective 
+          maintenance programs tailored to the operational requirements of each facility. We support 
+          mechanical, electrical, plumbing, pumping, HVAC, automation and utility systems with a 
+          proactive maintenance approach that extends equipment life, improves operational efficiency 
+          and reduces unexpected failures.
+        </p>
+
+        <p className="mb-12 text-xl leading-8 text-slate-300">
+          From routine inspections and equipment servicing to emergency repairs and long-term maintenance 
+          planning, Pacific Prime Engineering delivers dependable engineering solutions that help 
+          organizations protect their assets, optimize performance and maintain business continuity. 
+          We understand that every hour of downtime impacts productivity, which is why we are committed 
+          to delivering rapid response, technical excellence and premium service standards.
         </p>
 
         <div className="glass-card rounded-[2rem] p-10">
@@ -191,6 +199,23 @@ export default function IndustrialMaintenancePage() {
 
           <ul className="space-y-4 text-slate-300">
             <li>• Preventive maintenance programs</li>
+            <li>• Predictive maintenance and condition monitoring</li>
+            <li>• Corrective maintenance and repairs</li>
+            <li>• Mechanical equipment maintenance</li>
+            <li>• Electrical systems maintenance</li>
+            <li>• Pumps, motors and rotating equipment</li>
+            <li>• HVAC and mechanical system maintenance</li>
+            <li>• Water and wastewater system maintenance</li>
+            <li>• Building automation and control system maintenance</li>
+            <li>• Industrial piping and utility systems</li>
+            <li>• Troubleshooting and fault diagnostics</li>
+            <li>• Equipment commissioning and recommissioning</li>
+            <li>• Asset reliability assessments</li>
+            <li>• Shutdown and turnaround support</li>
+            <li>• Emergency maintenance services (24/7)</li>
+            <li>• Maintenance planning and asset management</li>
+            <li>• Technical inspections and performance evaluations</li>
+            <li>• Operational continuity support</li>
             <li>• Mechanical troubleshooting</li>
             <li>• Equipment reliability support</li>
             <li>• Technical emergency response</li>
